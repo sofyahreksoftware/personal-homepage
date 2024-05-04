@@ -1,4 +1,4 @@
-export const  mySkills = [
+export const mySkills = [
   "Semantic & accessible HTML",
   "Responsive Web Design",
   "SVG",
@@ -16,6 +16,7 @@ export const  mySkills = [
   "Transitions",
   "Media Queries",
   "JavaScript (ES6+)",
+  "Local Storage & Cookies",
   "NPM",
   "Node.js",
   "Immutability",
@@ -40,10 +41,9 @@ export const  mySkills = [
   "Teamwork",
 ];
 
-export const  skillsToLearn = [
+export const skillsToLearn = [
   "TypeScript",
   "Next.js",
-  "jQuery",
   "React Context",
   "Cypress",
   "Unit testing",

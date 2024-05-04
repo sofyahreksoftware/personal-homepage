@@ -26,7 +26,7 @@ export const List = styled.ul`
   font-size: 16px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(13, 30px);
+  grid-template-rows: repeat(14, 30px);
   grid-auto-flow: column;
   grid-gap: 8px 130px;
   color: ${({ theme }) => theme.colors.slateGray};
@@ -39,7 +39,8 @@ export const List = styled.ul`
   ${({ $condensedView }) =>
     $condensedView &&
     css`
-      grid-template-rows: repeat(2, 30px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     `}
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
