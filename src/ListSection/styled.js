@@ -29,11 +29,10 @@ export const List = styled.ul`
   grid-template-rows: repeat(14, 30px);
   grid-auto-flow: column;
   grid-gap: 8px 130px;
-  color: ${({ theme }) => theme.colors.slateGray};
 
   & > li::marker {
     color: ${({ theme }) => theme.colors.cornflowerBlue};
-    font-size: 18px;
+    font-size: 22px;
   }
 
   ${({ $condensedView }) =>
@@ -52,6 +51,6 @@ export const List = styled.ul`
 `;
 
 export const StyledItem = styled.li`
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.slateGray};
   margin-bottom: 8px;
 `;
