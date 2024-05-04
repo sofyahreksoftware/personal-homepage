@@ -12,6 +12,7 @@ html {
 
 body {
  background-color: ${({ theme }) => theme.colors.whiteLilac};
+ font-family: "Inter", sans-serif;
  margin: 109px auto;
   -moz-osx-font-smoothing: grayscale;
 }
