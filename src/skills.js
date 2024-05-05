@@ -1,4 +1,4 @@
-export const mySkills = [
+export const currentSkillsList = [
   "Semantic & accessible HTML",
   "Responsive Web Design",
   "SVG",
@@ -41,7 +41,7 @@ export const mySkills = [
   "Teamwork",
 ];
 
-export const skillsToLearn = [
+export const futureSkillsList = [
   "TypeScript",
   "Next.js",
   "React Context",

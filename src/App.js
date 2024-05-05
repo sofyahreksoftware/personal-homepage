@@ -1,16 +1,16 @@
-import { ListSection } from "./ListSection";
-import { mySkills, skillsToLearn } from "./mySkills&skillsToLearn";
+import { SkillsSection } from "./SkillsSection";
+import { currentSkillsList, futureSkillsList } from "./skills";
 
 function App() {
   return (
     <div>
-      <ListSection
+      <SkillsSection
         titleName="My skillset includes&nbsp;🛠️"
-        listItems={mySkills}
+        skills={currentSkillsList}
       />
-      <ListSection
+      <SkillsSection
         titleName="What I want to learn next&nbsp;🚀"
-        listItems={skillsToLearn}
+        skills={futureSkillsList}
         $condensedView
       />
     </div>
