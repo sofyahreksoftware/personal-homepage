@@ -11,14 +11,16 @@ html {
   }
 
 body {
+ max-width: 1216px;
+ margin: 109px auto;
  background-color: ${({ theme }) => theme.colors.whiteLilac};
  font-family: "Inter", sans-serif;
- margin: 109px auto;
-  -moz-osx-font-smoothing: grayscale;
+ font-weight: 400px;
+ letter-spacing: 1.5px;
+-moz-osx-font-smoothing: grayscale;
 }
 
 button:hover {
     cursor: pointer
   }
-
 `;

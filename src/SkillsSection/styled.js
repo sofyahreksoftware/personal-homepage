@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 
 export const StyledSection = styled.section`
-  max-width: 1216px;
   background-color: ${({ theme }) => theme.colors.white};
   margin: 72px auto;
   padding: 16px;
@@ -17,13 +16,14 @@ export const List = styled.ul`
   font-size: 16px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(14, 30px);
+  grid-template-rows: repeat(14, 38px);
   grid-auto-flow: column;
-  grid-gap: 8px 130px;
+  grid-gap: 10px 130px;
+  align-items: center;
 
   & > li::marker {
-    color: ${({ theme }) => theme.colors.cornflowerBlue};
-    font-size: 22px;
+    color: ${({ theme }) => theme.colors.scienceBlue};
+    font-size: 26px;
   }
 
   ${({ $condensedView }) =>
