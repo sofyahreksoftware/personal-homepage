@@ -3,6 +3,8 @@ import styled, { css } from "styled-components";
 export const StyledSection = styled.section`
   background-color: ${({ theme }) => theme.colors.white};
   margin: 72px auto;
+  max-width: 1216px;
+
   padding: 16px;
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {

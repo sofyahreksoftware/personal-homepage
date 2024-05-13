@@ -11,8 +11,7 @@ html {
   }
 
 body {
- max-width: 1216px;
- margin: 109px auto;
+ max-width: 1920px;
  background-color: ${({ theme }) => theme.colors.whiteLilac};
  font-family: "Inter", sans-serif;
  font-weight: 400px;
