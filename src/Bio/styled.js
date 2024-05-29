@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const StyledBio = styled.header`
   display: grid;
+  margin: 72px 0;
+  text-align: left;
   grid-template-columns: auto 1fr;
   grid-gap: 66px;
   max-width: 1089px;
@@ -36,12 +38,6 @@ export const Image = styled.img`
     margin: -30px 13px;
     padding: 0;
   }
-`;
-
-export const Description = styled.p`
-  margin: 0;
-  font-size: 20px;
-  color: ${({ theme }) => theme.colors.slateGray};
 `;
 
 export const HireMeLink = styled.a`

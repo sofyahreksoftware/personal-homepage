@@ -1,5 +1,6 @@
 import { Title, TitleAdditionalContent } from "../StyledTitle/styled";
-import { StyledBio, InfoCard, Image, Description, HireMeLink } from "./styled";
+import { StyledBio, InfoCard, Image,  HireMeLink } from "./styled";
+import { Description } from "../StyledDescription/styled";
 import myPhoto from "../assets/myPhoto.png";
 import { ReactComponent as ReactIcon } from "../assets/react.svg";
 import { ReactComponent as LaptopIcon } from "../assets/laptop.svg";
