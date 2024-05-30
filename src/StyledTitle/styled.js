@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Title = styled.h2`
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 30px;
   line-height: 36.31px;
   color: ${({ theme }) => theme.colors.mineShaft};
@@ -9,6 +9,20 @@ export const Title = styled.h2`
   letter-spacing: 1.5px;
   padding: 0 0 13px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.cornflowerBlue};
+
+  ${({ $forFooter }) =>
+    $forFooter &&
+    css`
+      border-bottom: none;
+      font-size: 32px;
+      line-height: 38.43px;
+      margin-left: 0;
+
+      @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+        font-size: 24px;
+        line-height: 21.78px;
+      }
+    `}
 
   ${({ as }) =>
     as === "h1" &&

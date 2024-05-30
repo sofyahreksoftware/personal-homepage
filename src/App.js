@@ -2,6 +2,7 @@ import { MainContainer } from "./MainContainer/styled";
 import { Bio } from "./Bio";
 import { SkillsSection } from "./SkillsSection";
 import { currentSkillsList, futureSkillsList } from "./skills";
+import { Footer } from "./Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           $condensedView
         />
       </MainContainer>
+      <Footer/>
     </div>
   );
 }
