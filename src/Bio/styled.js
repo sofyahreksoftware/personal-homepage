@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledBio = styled.header`
   display: grid;
-  margin: 72px 0;
-  text-align: left;
+  margin-top: 72px;
+  max-width: 1216px;
   grid-template-columns: auto 1fr;
   grid-gap: 66px;
   max-width: 1089px;
