@@ -7,7 +7,8 @@ export const StyledBio = styled.header`
   grid-template-columns: auto 1fr;
   grid-gap: 66px;
   max-width: 1089px;
-  padding: 16px 4px;
+  padding: 16px 8px;
+  margin-left: 12px;
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     grid-template-columns: 1fr;
