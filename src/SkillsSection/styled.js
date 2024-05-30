@@ -33,6 +33,13 @@ export const List = styled.ul`
       grid-template-rows: repeat(2, 1fr);
     `}
 
+  @media (max-width: ${({ theme }) => theme.media.tablet}px) {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
+    grid-gap: 4px 18px;
+  }
+
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     grid-template-columns: 1fr;
     grid-auto-flow: row;
