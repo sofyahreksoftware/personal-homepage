@@ -8,6 +8,7 @@ export const StyledSection = styled.section`
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     margin: 50px auto;
     padding: 4px;
+    width: 100%;
   }
 `;
 

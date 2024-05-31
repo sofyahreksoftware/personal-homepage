@@ -6,7 +6,7 @@ export const Description = styled.p`
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  line-height: 16.94px;
+  line-height: 19.94px;
   color: ${({ theme }) => theme.colors.slateGray};
 
   ${({ $forFooter }) =>
