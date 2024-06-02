@@ -1,6 +1,6 @@
 import { StyledFooter, LinksList } from "./styled";
-import { TitleAdditionalContent, Title } from "../StyledTitle/styled";
-import { Description } from "../StyledDescription/styled";
+import { TitleAdditionalContent, Title } from "../SharedStyles/TitleStyles";
+import { Description } from "../SharedStyles/DescriptionStyles";
 import { ReactComponent as GitHubIcon } from "../assets/github.svg";
 import { ReactComponent as FacebookIcon } from "../assets/facebook.svg";
 import { ReactComponent as InstagramIcon } from "../assets/instagram.svg";
@@ -9,7 +9,7 @@ import { ReactComponent as LinkedInIcon } from "../assets/linkedIn.svg";
 export const Footer = () => (
   <StyledFooter>
     <TitleAdditionalContent>LET'S TALK</TitleAdditionalContent>
-    <Title $forFooter>sofyahrek@gmail.com</Title>
+    <Title $withoutBorder>sofyahrek@gmail.com</Title>
     <Description $forFooter>
       I am always eager to take on new projects when my schedule allows. If
       you're envisioning a website, dashboard, or mobile app and need assistance

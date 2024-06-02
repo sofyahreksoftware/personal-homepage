@@ -1,6 +1,6 @@
-import { Title, TitleAdditionalContent } from "../StyledTitle/styled";
-import { StyledBio, InfoCard, Image,  HireMeLink } from "./styled";
-import { Description } from "../StyledDescription/styled";
+import { Title, TitleAdditionalContent } from "../SharedStyles/TitleStyles";
+import { StyledBio, InfoCard, Image, HireMeLink } from "./styled";
+import { Description } from "../SharedStyles/DescriptionStyles";
 import myPhoto from "../assets/myPhoto.png";
 import { ReactComponent as ReactIcon } from "../assets/react.svg";
 import { ReactComponent as LaptopIcon } from "../assets/laptop.svg";
@@ -15,7 +15,7 @@ export const Bio = ({ titleAdditionalContent, titleName, description }) => {
           {titleAdditionalContent}
         </TitleAdditionalContent>
         <Title as="h1">{titleName}</Title>
-        <Description>
+        <Description $forBio>
           <ReactIcon />
           <LaptopIcon /> {description}
         </Description>

@@ -1,17 +1,5 @@
 import styled, { css } from "styled-components";
 
-export const StyledSection = styled.section`
-  background-color: ${({ theme }) => theme.colors.white};
-  margin: 72px auto;
-  padding: 16px;
-
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
-    margin: 50px auto;
-    padding: 4px;
-    width: 100%;
-  }
-`;
-
 export const List = styled.ul`
   list-style-type: disc;
   font-size: 16px;
