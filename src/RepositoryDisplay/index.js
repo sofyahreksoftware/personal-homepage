@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import { useApiData } from "../useApiData";
 
 import { StyledRepositoryDisplay } from "./styled";
@@ -10,6 +11,7 @@ export const RepositoryDisplay = () => {
     <StyledRepositoryDisplay>
       {repositoriesData?.map((repoData) => (
         <RepositoryCard
+          key={nanoid()}
           title={repoData.name.replace(/[_]/g, "-")}
           description={repoData.description}
           demoLink={repoData.homepage}
