@@ -9,11 +9,7 @@ function App() {
   return (
     <div>
       <MainContainer>
-        <Bio
-          titleAdditionalContent="THIS IS"
-          titleName="Sofya Hrek"
-          description="I am a passionate Frontend Developer with a strong passion for React, actively pursuing new career opportunities."
-        />
+        <Bio />
         <SkillsSection
           titleName="My skillset includes&nbsp;🛠️"
           skills={currentSkillsList}
