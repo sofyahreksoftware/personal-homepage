@@ -1,10 +1,15 @@
-import { MainContainer } from "./MainContainer/styled";
+import { useApiData } from "./useApiData";
+
+import { MainContainer } from "./SharedStyles/StyledMain";
 import { Bio } from "./Bio";
 import { SkillsSection } from "./SkillsSection";
 import { currentSkillsList, futureSkillsList } from "./skills";
 import { Footer } from "./Footer";
+import { Portfolio } from "./Portfolio";
 
 function App() {
+  const { repositoriesData } = useApiData();
+
   return (
     <div>
       <MainContainer>
@@ -22,8 +27,9 @@ function App() {
           skills={futureSkillsList}
           $condensedView
         />
+        <Portfolio reposData={repositoriesData} />
       </MainContainer>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
