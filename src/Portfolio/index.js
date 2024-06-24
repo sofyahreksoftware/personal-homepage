@@ -1,11 +1,13 @@
+import { useApiData } from "../useApiData";
+
 import { Entry, RepositoryDisplay } from "./styled";
 import { StyledSection } from "../SharedStyles/SectionStyles";
 import { Title, Subtitle } from "../SharedStyles/TitleStyles";
 import { RepositoryCard } from "../RepositoryCard";
-
 import { ReactComponent as GitHubIcon } from "../assets/blueGithub.svg";
 
-export const Portfolio = ({ reposData }) => {
+export const Portfolio = () => {
+  const { repositoriesData } = useApiData();
   return (
     <StyledSection>
       <Entry>
@@ -14,7 +16,7 @@ export const Portfolio = ({ reposData }) => {
         <Subtitle>My recent projects</Subtitle>
       </Entry>
       <RepositoryDisplay>
-        {reposData?.map((repoData) => (
+        {repositoriesData?.map((repoData) => (
           <RepositoryCard
             title={repoData.name.replace(/[_]/g, "-")}
             description={repoData.description}
