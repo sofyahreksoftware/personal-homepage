@@ -1,6 +1,7 @@
 import { Title, TitleAdditionalContent } from "../SharedStyles/TitleStyles";
-import { StyledBio, InfoCard, Image, HireMeLink } from "./styled";
+import { StyledBio, InfoCard, Image } from "./styled";
 import { Description } from "../SharedStyles/DescriptionStyles";
+import { HireMeLink } from "../SharedStyles/HireMeLink";
 import myPhoto from "../assets/myPhoto.png";
 import { ReactComponent as ReactIcon } from "../assets/react.svg";
 import { ReactComponent as LaptopIcon } from "../assets/laptop.svg";
