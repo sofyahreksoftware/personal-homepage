@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
   padding: 0 8px 0 4px;
   text-align: left;
   gap: 24px;
-  margin: 120px 8px;
+  margin: 0 8px;
   max-width: 670px;
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
