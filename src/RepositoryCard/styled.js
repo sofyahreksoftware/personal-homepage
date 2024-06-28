@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const StyledRepositoryCard = styled.article`
-  max-width: 572px;
-  min-height: 322px;
-  margin: 32px;
+  width: 100%;
   padding: 56px;
   background-color: ${({ theme }) => theme.colors.white};
 
   @media (max-width: ${({ theme }) => theme.media.tablet}px) {
-    margin: 16px auto;
+    padding: 24px;
   }
 `;
 

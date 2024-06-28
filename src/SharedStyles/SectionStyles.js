@@ -11,6 +11,12 @@ export const StyledSection = styled.section`
       background-color: ${({ theme }) => theme.colors.white};
     `}
 
+  ${({ $forPortfolio }) =>
+    $forPortfolio &&
+    css`
+      padding: 0;
+    `}
+
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     margin: 50px auto;
     padding: 4px;

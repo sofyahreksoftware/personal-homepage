@@ -11,7 +11,7 @@ export const Portfolio = () => {
   const { repositoriesData } = useApiData();
 
   return (
-    <StyledSection>
+    <StyledSection $forPortfolio>
       <Entry>
         <GitHubIcon />
         <Title $withoutBorder>Portfolio</Title>

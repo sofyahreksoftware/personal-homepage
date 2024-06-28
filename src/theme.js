@@ -1,5 +1,5 @@
 export const theme = {
-  media: { tablet: 948, mobile: 772 },
+  media: { tablet: 948, mobile: 480 },
   colors: {
     white: "rgba(255,255,255,1)",
     whiteLilac: "rgba(251, 251, 254, 1)",
