@@ -17,7 +17,6 @@ function App() {
         <SkillsSection
           titleName="What I want to learn next&nbsp;🚀"
           skills={futureSkillsList}
-          $condensedView
         />
         <Portfolio />
       </MainContainer>
