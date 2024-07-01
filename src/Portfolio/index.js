@@ -10,7 +10,7 @@ import { ReactComponent as GitHubIcon } from "../assets/blueGithub.svg";
 
 export const Portfolio = () => {
   const { repositoriesData, fetchingStatus } = useApiData();
-  console.log(fetchingStatus);
+
   return (
     <StyledSection $forPortfolio>
       <Entry>
