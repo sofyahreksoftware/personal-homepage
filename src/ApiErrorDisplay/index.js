@@ -1,15 +1,17 @@
 import { ReactComponent as WarningIcon } from "../assets/warning.svg";
 import { HireMeLink } from "../SharedStyles/HireMeLink";
-import { StyledApiErrorDisplay, Warning, ErrorMessage } from "./styled";
+import { Warning } from "./styled";
+import { MessageDisplay } from "../SharedStyles/MessageDisplay";
+import { StatusMessage } from "../SharedStyles/StatusMessage";
 
 export const ApiErrorDisplay = () => (
-  <StyledApiErrorDisplay>
+  <MessageDisplay>
     <WarningIcon />
     <Warning>Ooops! Something went wrong... </Warning>
-    <ErrorMessage>
+    <StatusMessage>
       Sorry, failed to load Github projects. You can check them directly on
       Github.
-    </ErrorMessage>
+    </StatusMessage>
     <HireMeLink
       $centered
       rel="noreferrer noopener"
@@ -19,5 +21,5 @@ export const ApiErrorDisplay = () => (
     >
       Go to Github
     </HireMeLink>
-  </StyledApiErrorDisplay>
+  </MessageDisplay>
 );
