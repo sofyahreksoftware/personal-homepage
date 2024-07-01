@@ -3,13 +3,14 @@ import { useApiData } from "../useApiData";
 import { Entry } from "./styled";
 import { StyledSection } from "../SharedStyles/SectionStyles";
 import { Title, Subtitle } from "../SharedStyles/TitleStyles";
+import { LoadingDisplay } from "../LoadingDisplay";
 import { RepositoryDisplay } from "../RepositoryDisplay";
-import { ReactComponent as GitHubIcon } from "../assets/blueGithub.svg";
 import { ApiErrorDisplay } from "../ApiErrorDisplay";
+import { ReactComponent as GitHubIcon } from "../assets/blueGithub.svg";
 
 export const Portfolio = () => {
-  const { repositoriesData } = useApiData();
-
+  const { repositoriesData, fetchingStatus } = useApiData();
+  console.log(fetchingStatus);
   return (
     <StyledSection $forPortfolio>
       <Entry>
@@ -17,10 +18,11 @@ export const Portfolio = () => {
         <Title $withoutBorder>Portfolio</Title>
         <Subtitle>My recent projescts</Subtitle>
       </Entry>
-      {repositoriesData && (
+      {fetchingStatus === "loading" && <LoadingDisplay />}
+      {fetchingStatus === "success" && (
         <RepositoryDisplay repositoriesData={repositoriesData} />
       )}
-      {!repositoriesData && <ApiErrorDisplay />}
+      {fetchingStatus === "error" && <ApiErrorDisplay />}
     </StyledSection>
   );
 };
