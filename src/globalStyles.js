@@ -13,6 +13,7 @@ html {
 body {
  max-width: 1216px;
  margin: 0 auto;
+ padding: 0 14px;
  background-color: ${({ theme }) => theme.colors.whiteLilac};
  font-family: "Inter", sans-serif;
  font-weight: 400px;
