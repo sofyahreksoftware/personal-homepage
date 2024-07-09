@@ -7,7 +7,7 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.colors.headers.main};
   margin: 8px 0 0 18px;
   padding: 12px 0 13px;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.headers.border};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.underlinings.header};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 26px;
@@ -68,9 +68,9 @@ export const Subtitle = styled.h3`
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  color: ${({ theme }) => theme.colors.paragraphs.highlight};
+  color: ${({ theme }) => theme.colors.text.highlighted};
 
-@media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 17px;
     line-height: 23.8px;
   }

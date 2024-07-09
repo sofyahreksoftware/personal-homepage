@@ -9,12 +9,12 @@ export const List = styled.ul`
   align-items: center;
 
   & > li::marker {
-    color: ${({ theme }) => theme.colors.list.bullet};
+    color: ${({ theme }) => theme.colors.bullet};
     font-size: 26px;
   }
 `;
 
 export const StyledItem = styled.li`
-  color: ${({ theme }) => theme.colors.list.text};
+  color: ${({ theme }) => theme.colors.text.normal};
   margin-bottom: 8px;
 `;

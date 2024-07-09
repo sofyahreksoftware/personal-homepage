@@ -13,7 +13,7 @@ export const StyledToggleMode = styled.div`
 `;
 
 export const StatusText = styled.p`
-  color: ${({ theme }) => theme.colors.paragraphs.normal};
+  color: ${({ theme }) => theme.colors.text.normal};
   font-weight: 700;
   font-size: 12px;
   line-height: 1.3;

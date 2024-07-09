@@ -26,25 +26,27 @@ export const lightTheme = {
       main: theme.colors.mineShaft,
       subheader: theme.colors.scienceBlue,
       intro: theme.colors.slateGray,
-      border: theme.colors.iron,
     },
-    paragraphs: {
+    text: {
       normal: theme.colors.slateGray,
-      highlight: theme.colors.mineShaft,
+      highlighted: theme.colors.mineShaft,
     },
-    list: { text: theme.colors.slateGray, bullet: theme.colors.scienceBlue },
+    bullet: theme.colors.scienceBlue,
     link: {
       background: theme.colors.scienceBlue,
       text: theme.colors.white,
       highlightedText: theme.colors.scienceBlue,
       onHover: theme.colors.electricBlue,
-      border: theme.colors.scienceBlue,
     },
     icon: {
       internalBorder: theme.colors.cornflowerBlue,
       externalBorder: theme.colors.slateGray,
       mainBackground: theme.colors.iron,
       background: theme.colors.slateGray,
+    },
+    underlinings: {
+      header: theme.colors.iron,
+      link: theme.colors.scienceBlue,
     },
   },
 };
@@ -60,22 +62,27 @@ export const darkTheme = {
       main: theme.colors.white,
       subheader: theme.colors.white,
       intro: theme.colors.white,
-      border: theme.colors.iron,
     },
-    paragraphs: { normal: theme.colors.white, highlight: theme.colors.white },
+    text: {
+      normal: theme.colors.white,
+      highlighted: theme.colors.white,
+    },
     link: {
       background: theme.colors.electricBlue,
       text: theme.colors.white,
       highlightedText: theme.colors.electricBlue,
       onHover: theme.colors.scienceBlue,
-      border: theme.colors.electricBlue,
     },
-    list: { text: theme.colors.white, bullet: theme.colors.electricBlue },
+    bullet: theme.colors.electricBlue,
     icon: {
       internalBorder: theme.colors.smokySteel,
       externalBorder: theme.colors.white,
       mainBackground: theme.colors.smokySteel,
       background: theme.colors.white,
+    },
+    underlinings: {
+      header: theme.colors.iron,
+      link: theme.colors.electricBlue,
     },
   },
 };

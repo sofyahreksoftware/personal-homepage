@@ -17,12 +17,12 @@ export const LinkContainer = styled.div`
 export const Link = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.link.highlightedText};
-  border-bottom: solid 1px ${({ theme }) => theme.colors.link.border};
+  border-bottom: solid 1px ${({ theme }) => theme.colors.underlinings.link};
 `;
 
 export const LinkName = styled.b`
   font-size: 18px;
   font-weight: 400;
   line-height: 25.2px;
-  color: ${({ theme }) => theme.colors.paragraphs.normal};
+  color: ${({ theme }) => theme.colors.text.normal};
 `;
