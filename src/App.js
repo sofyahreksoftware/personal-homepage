@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { MainContainer } from "./SharedStyles/StyledMain";
 import { Bio } from "./Bio";
 import { SkillsSection } from "./SkillsSection";
@@ -8,12 +6,10 @@ import { Footer } from "./Footer";
 import { Portfolio } from "./Portfolio";
 import { ToggleMode } from "./ToggleMode";
 
-function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
+function App({ isDarkMode, setDarkMode }) {
   return (
     <div>
-      <ToggleMode darkMode={darkMode} setDarkMode={setDarkMode} />
+      <ToggleMode isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
       <MainContainer>
         <Bio />
         <SkillsSection
