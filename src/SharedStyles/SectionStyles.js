@@ -8,7 +8,7 @@ export const StyledSection = styled.section`
   ${({ $white }) =>
     $white &&
     css`
-      background-color: ${({ theme }) => theme.colors.white};
+      background-color: ${({ theme }) => theme.colors.backgrounds.section};
     `}
 
   ${({ $forPortfolio }) =>

@@ -4,10 +4,10 @@ export const Title = styled.h2`
   font-weight: 900;
   font-size: 30px;
   line-height: 36.31px;
-  color: ${({ theme }) => theme.colors.mineShaft};
+  color: ${({ theme }) => theme.colors.headers.main};
   margin: 8px 0 0 18px;
   padding: 12px 0 13px;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.cornflowerBlue};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.headers.border};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 26px;
@@ -25,7 +25,7 @@ export const Title = styled.h2`
     as === "h1" &&
     css`
       display: flex;
-      align-items: center; /* Adjusted from 'align-self' which is not applicable here */
+      align-items: center;
       border-bottom: none;
       font-size: 38px;
       line-height: 45.99px;
@@ -40,7 +40,7 @@ export const Title = styled.h2`
   ${({ as, theme }) =>
     as === "h5" &&
     css`
-      color: ${theme.colors.scienceBlue};
+      color: ${theme.colors.headers.subheader};
       font-weight: 700;
       border-bottom: none;
       font-size: 24px;
@@ -57,7 +57,7 @@ export const Title = styled.h2`
 export const TitleAdditionalContent = styled.b`
   display: flex;
   align-items: center;
-  color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.colors.headers.intro};
   font-size: 18px;
   line-height: 15.6px;
   font-weight: 700px;
@@ -68,8 +68,9 @@ export const Subtitle = styled.h3`
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
+  color: ${({ theme }) => theme.colors.paragraphs.highlight};
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+@media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 17px;
     line-height: 23.8px;
   }

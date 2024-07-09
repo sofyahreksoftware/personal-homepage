@@ -10,13 +10,13 @@ export const HireMeLink = styled.a`
   justify-content: center;
   border-radius: 4px;
   white-space: nowrap;
-  background-color: ${({ theme }) => theme.colors.scienceBlue};
+  background-color: ${({ theme }) => theme.colors.link.background};
   text-align: center;
   align-items: center;
   font-size: 20.06px;
   font-weight: 600px;
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.link.text};
   transition: background-color 2s ease-out;
 
   ${({ $centered }) =>
@@ -26,7 +26,7 @@ export const HireMeLink = styled.a`
     `}
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.electricBlue};
+    background-color: ${({ theme }) => theme.colors.link.onHover};
     cursor: pointer;
   }
 

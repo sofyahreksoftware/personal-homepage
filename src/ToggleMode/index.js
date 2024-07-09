@@ -7,14 +7,14 @@ import {
   IconBackground,
 } from "./styled";
 
-export const ToggleMode = ({ darkMode }) => {
+export const ToggleMode = ({ isDarkMode }) => {
   
   return (
     <StyledToggleMode>
       <StatusText>
-        DARK MODE <StatusIndicator>{darkMode ? "ON" : "OFF"}</StatusIndicator>
+        DARK MODE <StatusIndicator>{isDarkMode ? "ON" : "OFF"}</StatusIndicator>
       </StatusText>
-      <ToggleButton $iconToRight={darkMode}>
+      <ToggleButton $iconToRight={isDarkMode}>
         <IconBackground>
           <Icon />
         </IconBackground>

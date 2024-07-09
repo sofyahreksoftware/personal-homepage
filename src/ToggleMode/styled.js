@@ -13,7 +13,7 @@ export const StyledToggleMode = styled.div`
 `;
 
 export const StatusText = styled.p`
-  color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.colors.paragraphs.normal};
   font-weight: 700;
   font-size: 12px;
   line-height: 1.3;
@@ -30,14 +30,15 @@ export const StatusIndicator = styled.em`
 export const ToggleButton = styled.button`
   width: 47px;
   height: 25px;
-  border: 1px solid ${({ theme }) => theme.colors.slateGray};
+  border: 1px solid ${({ theme }) => theme.colors.icon.internalBorder};
+  box-shadow: 0 0 0 1px ${({ theme }) => theme.colors.icon.externalBorder};
+  background-color: ${({ theme }) => theme.colors.icon.mainBackground};
   border-radius: 50px;
   padding: 0;
   display: flex;
   justify-content: left;
   align-items: center;
   transition: 0.5s;
-  cursor: pointer;
 
   ${({ $iconToRight }) =>
     $iconToRight &&
@@ -48,7 +49,7 @@ export const ToggleButton = styled.button`
 
 export const IconBackground = styled.div`
   border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.slateGray};
+  background-color: ${({ theme }) => theme.colors.icon.background};
   width: 20px;
   height: 20px;
   display: flex;

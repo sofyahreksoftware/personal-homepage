@@ -4,7 +4,7 @@ export const Description = styled.p`
   padding-right: 4px;
   font-weight: 400;
   line-height: 25.2px;
-  color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.colors.paragraphs.normal};
   font-size: 18px;
 
   ${({ $forBio }) =>
@@ -17,7 +17,7 @@ export const Description = styled.p`
   ${({ $forFooter }) =>
     $forFooter &&
     css`
-      color: ${({ theme }) => theme.colors.black};
+      color: ${({ theme }) => theme.colors.paragraphs.highlight};
     `}
 
     ${({ $forPortfolio }) =>
