@@ -36,15 +36,7 @@ export const ToggleButton = styled.button`
   border-radius: 50px;
   padding: 0;
   display: flex;
-  justify-content: left;
   align-items: center;
-  transition: 0.5s;
-
-  ${({ $iconToRight }) =>
-    $iconToRight &&
-    css`
-      justify-content: right;
-    `}
 `;
 
 export const IconBackground = styled.div`
@@ -55,4 +47,11 @@ export const IconBackground = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease;
+
+  ${({ $iconToRight }) =>
+    $iconToRight &&
+    css`
+      transform: translateX(25px);
+    `};
 `;
