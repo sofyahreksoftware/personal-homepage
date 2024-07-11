@@ -32,9 +32,9 @@ export const StatusIndicator = styled.em`
 export const ToggleButton = styled.button`
   width: 47px;
   height: 25px;
-  border: 1px solid ${({ theme }) => theme.colors.icon.internalBorder};
-  box-shadow: 0 0 0 1px ${({ theme }) => theme.colors.icon.externalBorder};
-  background-color: ${({ theme }) => theme.colors.icon.mainBackground};
+  border: 1px solid ${({ theme }) => theme.colors.icons.switch.internalBorder};
+  box-shadow: 0 0 0 1px ${({ theme }) => theme.colors.icons.switch.externalBorder};
+  background-color: ${({ theme }) => theme.colors.icons.switch.mainBackground};
   border-radius: 50px;
   padding: 0;
   display: flex;
@@ -43,7 +43,7 @@ export const ToggleButton = styled.button`
 
 export const IconBackground = styled.div`
   border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.icon.background};
+  background-color: ${({ theme }) => theme.colors.icons.switch.background};
   width: 20px;
   height: 20px;
   display: flex;
@@ -59,6 +59,6 @@ export const IconBackground = styled.div`
 `;
 
 export const StyledIcon = styled(Icon)`
-  fill: ${({ theme }) => theme.colors.iconsSvg.forSwitch};
-  stroke: ${({ theme }) => theme.colors.iconsSvg.forSwitch};
+  fill: ${({ theme }) => theme.colors.icons.simple.forSwitch};
+  stroke: ${({ theme }) => theme.colors.icons.simple.forSwitch};
 `;

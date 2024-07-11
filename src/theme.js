@@ -3,22 +3,21 @@ export const theme = {
   colors: {
     white: "rgba(255,255,255,1)",
     whiteLilac: "rgba(251, 251, 254, 1)",
-    cornflowerBlue: "rgba(209, 213, 218, 0.3)",
-    slateGray: "rgba(110, 126, 145, 1)",
-    scienceBlue: "rgba(3, 102, 214, 1)",
-    electricBlue: "rgba(33, 136, 255, 1)",
     iron: "rgba(229, 229, 229, 1)",
     alto: "rgba(218, 218, 218, 1)",
-    mineShaft: "rgba(37, 37, 37, 1)",
+    cornflowerBlue: "rgba(209, 213, 218, 0.3)",
+    mistGray: "rgba(209, 213, 218, 0.3)",
+    slateGray: "rgba(110, 126, 145, 1)",
+    electricBlue: "rgba(33, 136, 255, 1)",
+    scienceBlue: "rgba(3, 102, 214, 1)",
     smokyGray: "rgba(54, 54, 54, 0.72)",
-    black: "rgba(0, 0, 0, 1)",
     smokySteel: "rgba(54, 54, 54, 0.72)",
+    mineShaft: "rgba(37, 37, 37, 1)",
+    black: "rgba(0, 0, 0, 1)",
     violet: "rgba(9, 10, 51, 0.03)",
     violet2: "rgba(9, 10, 51, 0.02)",
-    mistGray: "rgba(209, 213, 218, 0.1)",
   },
 };
-
 export const lightTheme = {
   ...theme,
   colors: {
@@ -42,20 +41,22 @@ export const lightTheme = {
       highlightedText: theme.colors.scienceBlue,
       onHover: theme.colors.electricBlue,
     },
-    icon: {
-      internalBorder: theme.colors.cornflowerBlue,
-      externalBorder: theme.colors.slateGray,
-      mainBackground: theme.colors.iron,
-      background: theme.colors.slateGray,
-    },
-    iconsSvg: {
-      normal: theme.colors.mineShaft,
-      highlighted: theme.colors.scienceBlue,
-      forSwitch: theme.colors.white,
-    },
-    loadingIcon: {
-      circle: theme.colors.cornflowerBlue,
-      path: theme.colors.scienceBlue,
+    icons: {
+      switch: {
+        internalBorder: theme.colors.cornflowerBlue,
+        externalBorder: theme.colors.slateGray,
+        mainBackground: theme.colors.iron,
+        background: theme.colors.slateGray,
+      },
+      simple: {
+        normal: theme.colors.mineShaft,
+        highlighted: theme.colors.scienceBlue,
+        forSwitch: theme.colors.white,
+      },
+      loading: {
+        circle: theme.colors.cornflowerBlue,
+        path: theme.colors.scienceBlue,
+      },
     },
     underlinings: {
       header: theme.colors.iron,
@@ -89,20 +90,22 @@ export const darkTheme = {
       onHover: theme.colors.scienceBlue,
     },
     bullet: theme.colors.electricBlue,
-    icon: {
-      internalBorder: theme.colors.smokySteel,
-      externalBorder: theme.colors.white,
-      mainBackground: theme.colors.smokySteel,
-      background: theme.colors.white,
-    },
-    iconsSvg: {
-      normal: theme.colors.alto,
-      highlighted: theme.colors.electricBlue,
-      forSwitch: theme.colors.mineShaft,
-    },
-    loadingIcon: {
-      circle: theme.colors.smokyGray,
-      path: theme.colors.electricBlue,
+    icons: {
+      switch: {
+        internalBorder: theme.colors.smokySteel,
+        externalBorder: theme.colors.white,
+        mainBackground: theme.colors.smokySteel,
+        background: theme.colors.white,
+      },
+      simple: {
+        normal: theme.colors.alto,
+        highlighted: theme.colors.electricBlue,
+        forSwitch: theme.colors.mineShaft,
+      },
+      loading: {
+        circle: theme.colors.smokyGray,
+        path: theme.colors.electricBlue,
+      },
     },
     underlinings: {
       header: theme.colors.iron,

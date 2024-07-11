@@ -7,5 +7,5 @@ export const Entry = styled.div`
 `;
 
 export const StyledGitHubIcon = styled(GitHubIcon)`
-  fill: ${({ theme }) => theme.colors.iconsSvg.highlighted};
+  fill: ${({ theme }) => theme.colors.icons.simple.highlighted};
 `;

@@ -22,6 +22,6 @@ export const LinksList = styled.ul`
   gap: 25px;
 
   svg {
-    fill: ${({ theme }) => theme.colors.iconsSvg.normal};
+    fill: ${({ theme }) => theme.colors.icons.simple.normal};
   }
 `;

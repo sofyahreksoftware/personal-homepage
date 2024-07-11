@@ -4,10 +4,10 @@ import { ReactComponent as LoadingIcon } from "../assets/loading.svg";
 
 export const StyledLoadingIcon = styled(LoadingIcon)`
   .svg-circle {
-    stroke: ${({ theme }) => theme.colors.loadingIcon.circle};
+    stroke: ${({ theme }) => theme.colors.icons.loading.circle};
   }
   .svg-path {
-    stroke: ${({ theme }) => theme.colors.loadingIcon.path};
+    stroke: ${({ theme }) => theme.colors.icons.loading.path};
   }
 `;
 

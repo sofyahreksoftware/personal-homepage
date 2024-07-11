@@ -44,5 +44,5 @@ export const Image = styled.img`
 `;
 
 export const StyledReactIcon = styled(ReactIcon)`
-  fill: ${({ theme }) => theme.colors.iconsSvg.highlighted};
+  fill: ${({ theme }) => theme.colors.icons.simple.highlighted};
 `;
