@@ -1,10 +1,10 @@
-import { ReactComponent as Icon } from "../assets/brightness.svg";
 import {
   StyledToggleMode,
   StatusText,
   StatusIndicator,
   ToggleButton,
   IconBackground,
+  StyledIcon,
 } from "./styled";
 
 export const ToggleMode = ({ isDarkMode, setDarkMode }) => {
@@ -19,7 +19,7 @@ export const ToggleMode = ({ isDarkMode, setDarkMode }) => {
       </StatusText>
       <ToggleButton onClick={switchMode}>
         <IconBackground $iconToRight={isDarkMode}>
-          <Icon />
+          <StyledIcon />
         </IconBackground>
       </ToggleButton>
     </StyledToggleMode>

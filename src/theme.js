@@ -8,6 +8,7 @@ export const theme = {
     scienceBlue: "rgba(3, 102, 214, 1)",
     electricBlue: "rgba(33, 136, 255, 1)",
     iron: "rgba(229, 229, 229, 1)",
+    alto: "rgba(218, 218, 218, 1)",
     mineShaft: "rgba(37, 37, 37, 1)",
     smokyGray: "rgba(54, 54, 54, 0.72)",
     black: "rgba(0, 0, 0, 1)",
@@ -44,6 +45,11 @@ export const lightTheme = {
       mainBackground: theme.colors.iron,
       background: theme.colors.slateGray,
     },
+    iconsSvg: {
+      normal: theme.colors.mineShaft,
+      highlighted: theme.colors.scienceBlue,
+      forSwitch: theme.colors.white,
+    },
     underlinings: {
       header: theme.colors.iron,
       link: theme.colors.scienceBlue,
@@ -79,6 +85,11 @@ export const darkTheme = {
       externalBorder: theme.colors.white,
       mainBackground: theme.colors.smokySteel,
       background: theme.colors.white,
+    },
+    iconsSvg: {
+      normal: theme.colors.alto,
+      highlighted: theme.colors.electricBlue,
+      forSwitch: theme.colors.mineShaft,
     },
     underlinings: {
       header: theme.colors.iron,

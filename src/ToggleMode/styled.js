@@ -1,5 +1,7 @@
 import styled, { css } from "styled-components";
 
+import { ReactComponent as Icon } from "../assets/brightness.svg";
+
 export const StyledToggleMode = styled.div`
   margin-top: 119px;
   display: flex;
@@ -54,4 +56,9 @@ export const IconBackground = styled.div`
     css`
       transform: translateX(25px);
     `};
+`;
+
+export const StyledIcon = styled(Icon)`
+  fill: ${({ theme }) => theme.colors.iconsSvg.forSwitch};
+  stroke: ${({ theme }) => theme.colors.iconsSvg.forSwitch};
 `;
