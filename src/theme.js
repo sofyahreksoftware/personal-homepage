@@ -13,6 +13,9 @@ export const theme = {
     smokyGray: "rgba(54, 54, 54, 0.72)",
     black: "rgba(0, 0, 0, 1)",
     smokySteel: "rgba(54, 54, 54, 0.72)",
+    violet: "rgba(9, 10, 51, 0.03)",
+    violet2: "rgba(9, 10, 51, 0.02)",
+    mistGray: "rgba(209, 213, 218, 0.1)",
   },
 };
 
@@ -58,6 +61,8 @@ export const lightTheme = {
       header: theme.colors.iron,
       link: theme.colors.scienceBlue,
     },
+    shadow: { external: theme.colors.violet, internal: theme.colors.violet2 },
+    border: theme.colors.mistGray,
   },
 };
 
@@ -103,5 +108,7 @@ export const darkTheme = {
       header: theme.colors.iron,
       link: theme.colors.electricBlue,
     },
+    shadow: { external: theme.colors.violet, internal: theme.colors.violet2 },
+    border: theme.colors.mistGray,
   },
 };
