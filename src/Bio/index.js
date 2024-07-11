@@ -1,9 +1,8 @@
 import { Title, TitleAdditionalContent } from "../SharedStyles/TitleStyles";
-import { StyledBio, InfoCard, Image } from "./styled";
+import { StyledBio, InfoCard, Image, StyledReactIcon } from "./styled";
 import { Description } from "../SharedStyles/DescriptionStyles";
 import { HireMeLink } from "../SharedStyles/HireMeLink";
 import myPhoto from "../assets/myPhoto.png";
-import { ReactComponent as ReactIcon } from "../assets/react.svg";
 import { ReactComponent as LaptopIcon } from "../assets/laptop.svg";
 import { ReactComponent as EnvelopeIcon } from "../assets/envelope.svg";
 
@@ -15,7 +14,7 @@ export const Bio = () => {
         <TitleAdditionalContent>THIS IS</TitleAdditionalContent>
         <Title as="h1">Sofya Hrek</Title>
         <Description $forBio>
-          <ReactIcon />
+          <StyledReactIcon />
           <LaptopIcon /> I am a passionate Frontend Developer with a strong
           passion for React, actively pursuing new career opportunities."
         </Description>

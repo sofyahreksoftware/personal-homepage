@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { ReactComponent as ReactIcon } from "../assets/react.svg";
+
 export const StyledBio = styled.header`
   display: grid;
   margin-top: 72px;
@@ -39,4 +41,8 @@ export const Image = styled.img`
     margin: -30px 13px;
     padding: 0;
   }
+`;
+
+export const StyledReactIcon = styled(ReactIcon)`
+  fill: ${({ theme }) => theme.colors.iconsSvg.highlighted};
 `;

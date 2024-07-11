@@ -20,4 +20,8 @@ export const LinksList = styled.ul`
   display: flex;
   flex-direction: row;
   gap: 25px;
+
+  svg {
+    fill: ${({ theme }) => theme.colors.iconsSvg.normal};
+  }
 `;
