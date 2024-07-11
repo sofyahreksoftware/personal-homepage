@@ -50,6 +50,10 @@ export const lightTheme = {
       highlighted: theme.colors.scienceBlue,
       forSwitch: theme.colors.white,
     },
+    loadingIcon: {
+      circle: theme.colors.cornflowerBlue,
+      path: theme.colors.scienceBlue,
+    },
     underlinings: {
       header: theme.colors.iron,
       link: theme.colors.scienceBlue,
@@ -90,6 +94,10 @@ export const darkTheme = {
       normal: theme.colors.alto,
       highlighted: theme.colors.electricBlue,
       forSwitch: theme.colors.mineShaft,
+    },
+    loadingIcon: {
+      circle: theme.colors.smokyGray,
+      path: theme.colors.electricBlue,
     },
     underlinings: {
       header: theme.colors.iron,
