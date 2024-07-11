@@ -9,6 +9,8 @@ export const StyledSection = styled.section`
     $white &&
     css`
       background-color: ${({ theme }) => theme.colors.backgrounds.section};
+      box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.commonColors.violet},
+              0px -2px 50px 0px ${({ theme }) => theme.commonColors.violet2};
     `}
 
   ${({ $forPortfolio }) =>
