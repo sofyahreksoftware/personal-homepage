@@ -28,15 +28,10 @@ export const lightTheme = {
       main: theme.commonColors.whiteLilac,
       section: theme.commonColors.white,
     },
-    headers: {
-      main: theme.commonColors.mineShaft,
-      subheader: theme.commonColors.scienceBlue,
-      intro: theme.commonColors.slateGray,
-      onHover: theme.commonColors.scienceBlue,
-    },
     text: {
+      main: theme.commonColors.mineShaft,
+      highlighted: theme.commonColors.scienceBlue,
       normal: theme.commonColors.slateGray,
-      highlighted: theme.commonColors.mineShaft,
     },
     bullet: theme.commonColors.scienceBlue,
     link: {
@@ -76,15 +71,10 @@ export const darkTheme = {
       main: theme.commonColors.mineShaft,
       section: theme.commonColors.smokyGray,
     },
-    headers: {
-      main: theme.commonColors.white,
-      subheader: theme.commonColors.white,
-      intro: theme.commonColors.white,
-      onHover: theme.commonColors.electricBlue,
-    },
     text: {
+      main: theme.commonColors.white,
+      highlighted: theme.commonColors.electricBlue,
       normal: theme.commonColors.white,
-      highlighted: theme.commonColors.white,
     },
     link: {
       background: theme.commonColors.electricBlue,

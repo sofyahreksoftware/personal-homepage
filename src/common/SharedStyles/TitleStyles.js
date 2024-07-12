@@ -4,7 +4,7 @@ export const Title = styled.h2`
   font-weight: 900;
   font-size: 30px;
   line-height: 36.31px;
-  color: ${({ theme }) => theme.colors.headers.main};
+  color: ${({ theme }) => theme.colors.text.main};
   margin: 8px 0 0 18px;
   padding: 12px 0 13px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.underlinings.header};
@@ -28,7 +28,7 @@ export const Title = styled.h2`
       margin-left: 0;
 
       &:hover {
-        color: ${({ theme }) => theme.colors.headers.onHover};
+        color: ${({ theme }) => theme.colors.text.highlighted};
       }
     `}
     
@@ -51,7 +51,7 @@ export const Title = styled.h2`
   ${({ as, theme }) =>
     as === "h5" &&
     css`
-      color: ${theme.colors.headers.subheader};
+      color: ${theme.colors.text.highlighted};
       font-weight: 700;
       border-bottom: none;
       font-size: 24px;
@@ -68,7 +68,7 @@ export const Title = styled.h2`
 export const TitleAdditionalContent = styled.b`
   display: flex;
   align-items: center;
-  color: ${({ theme }) => theme.colors.headers.intro};
+  color: ${({ theme }) => theme.colors.text.normal};
   font-size: 18px;
   line-height: 15.6px;
   font-weight: 700px;
@@ -79,7 +79,7 @@ export const Subtitle = styled.h3`
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  color: ${({ theme }) => theme.colors.text.highlighted};
+  color: ${({ theme }) => theme.colors.text.main};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 17px;

@@ -17,7 +17,7 @@ export const Description = styled.p`
   ${({ $forFooter }) =>
     $forFooter &&
     css`
-      color: ${({ theme }) => theme.colors.text.highlighted};
+      color: ${({ theme }) => theme.colors.text.main};
     `}
 
     ${({ $forPortfolio }) =>
