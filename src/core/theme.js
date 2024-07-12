@@ -5,6 +5,9 @@ export const theme = {
     whiteLilac: "rgba(251, 251, 254, 1)",
     iron: "rgba(229, 229, 229, 1)",
     alto: "rgba(218, 218, 218, 1)",
+    atlanticBlue: "rgba(140, 194, 255, 1)",
+    forestMist: "rgba(20, 70, 32, 0.2)",
+    oceanBlue: "rgba(109, 147, 190, 1)",
     cornflowerBlue: "rgba(209, 213, 218, 0.3)",
     mistGray: "rgba(209, 213, 218, 0.3)",
     slateGray: "rgba(110, 126, 145, 1)",
@@ -40,6 +43,7 @@ export const lightTheme = {
       text: theme.commonColors.white,
       highlightedText: theme.commonColors.scienceBlue,
       onHover: theme.commonColors.electricBlue,
+      shadowFocus: theme.commonColors.atlanticBlue,
     },
     icons: {
       switch: {
@@ -86,6 +90,7 @@ export const darkTheme = {
       text: theme.commonColors.white,
       highlightedText: theme.commonColors.electricBlue,
       onHover: theme.commonColors.scienceBlue,
+      shadowFocus: theme.commonColors.oceanBlue,
     },
     bullet: theme.commonColors.electricBlue,
     icons: {

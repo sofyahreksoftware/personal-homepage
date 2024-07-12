@@ -18,6 +18,8 @@ export const HireMeLink = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.link.text};
   transition: background-color 2s ease-out;
+  border: 1px solid ${({ theme }) => theme.commonColors.cornflowerBlue};
+  cursor: pointer;
 
   ${({ $centered }) =>
     $centered &&
@@ -25,9 +27,13 @@ export const HireMeLink = styled.a`
       margin: 0 auto;
     `}
 
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.link.onHover};
-    cursor: pointer;
+  &:focus {
+    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.link.shadowFocus},
+      2px 2px 0px 0px ${({ theme }) => theme.colors.link.shadowFocus};
+  }
+
+  &:active {
+    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.commonColors.forestMist};
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
