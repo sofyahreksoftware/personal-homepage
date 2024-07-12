@@ -21,6 +21,17 @@ export const Title = styled.h2`
       margin-left: 0;
     `}
 
+  ${({ $forFooter }) =>
+    $forFooter &&
+    css`
+      border-bottom: none;
+      margin-left: 0;
+
+      &:hover {
+        color: ${({ theme }) => theme.colors.headers.onHover};
+      }
+    `}
+    
   ${({ as }) =>
     as === "h1" &&
     css`

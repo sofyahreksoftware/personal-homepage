@@ -9,7 +9,7 @@ import { ReactComponent as LinkedInIcon } from "../../../assets/linkedIn.svg";
 export const Footer = () => (
   <StyledFooter>
     <TitleAdditionalContent>LET'S TALK</TitleAdditionalContent>
-    <Title $withoutBorder>sofyahrek@gmail.com</Title>
+    <Title $forFooter>sofyahrek@gmail.com</Title>
     <Description $forFooter>
       I am always eager to take on new projects when my schedule allows. If
       you're envisioning a website, dashboard, or mobile app and need assistance
