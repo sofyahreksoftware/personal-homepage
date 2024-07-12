@@ -23,5 +23,9 @@ export const LinksList = styled.ul`
 
   svg {
     fill: ${({ theme }) => theme.colors.icons.simple.normal};
+
+    &:hover {
+      fill: ${({ theme }) => theme.colors.icons.simple.highlighted};
+    }
   }
 `;
