@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { ReactComponent as ReactIcon } from "../assets/react.svg";
+import { ReactComponent as ReactIcon } from "../../../assets/react.svg";
 
 export const StyledBio = styled.header`
   display: grid;

@@ -4,9 +4,9 @@ import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import reportWebVitals from "./reportWebVitals";
 
-import { lightTheme, darkTheme } from "./theme";
+import { lightTheme, darkTheme } from "./core/theme";
 import App from "./App";
-import { GlobalStyle } from "./globalStyles";
+import { GlobalStyle } from "./core/globalStyles";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

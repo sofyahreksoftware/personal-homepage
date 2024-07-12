@@ -1,8 +1,8 @@
-import { ReactComponent as WarningIcon } from "../assets/warning.svg";
-import { HireMeLink } from "../SharedStyles/HireMeLink";
+import { ReactComponent as WarningIcon } from "../../../../assets/warning.svg";
+import { HireMeLink } from "../../../../common/SharedStyles/HireMeLink";
 import { Warning } from "./styled";
-import { MessageDisplay } from "../SharedStyles/MessageDisplay";
-import { StatusMessage } from "../SharedStyles/StatusMessage";
+import { MessageDisplay } from "../../../../common/SharedStyles/MessageDisplay";
+import { StatusMessage } from "../../../../common/SharedStyles/StatusMessage";
 
 export const ApiErrorDisplay = () => (
   <MessageDisplay>

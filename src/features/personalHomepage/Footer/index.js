@@ -1,10 +1,10 @@
 import { StyledFooter, LinksList } from "./styled";
-import { TitleAdditionalContent, Title } from "../SharedStyles/TitleStyles";
-import { Description } from "../SharedStyles/DescriptionStyles";
-import { ReactComponent as GitHubIcon } from "../assets/github.svg";
-import { ReactComponent as FacebookIcon } from "../assets/facebook.svg";
-import { ReactComponent as InstagramIcon } from "../assets/instagram.svg";
-import { ReactComponent as LinkedInIcon } from "../assets/linkedIn.svg";
+import { TitleAdditionalContent, Title } from "../../../common/SharedStyles/TitleStyles";
+import { Description } from "../../../common/SharedStyles/DescriptionStyles";
+import { ReactComponent as GitHubIcon } from "../../../assets/github.svg";
+import { ReactComponent as FacebookIcon } from "../../../assets/facebook.svg";
+import { ReactComponent as InstagramIcon } from "../../../assets/instagram.svg";
+import { ReactComponent as LinkedInIcon } from "../../../assets/linkedIn.svg";
 
 export const Footer = () => (
   <StyledFooter>

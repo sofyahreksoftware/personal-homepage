@@ -1,10 +1,10 @@
-import { Title, TitleAdditionalContent } from "../SharedStyles/TitleStyles";
+import { Title, TitleAdditionalContent } from "../../../common/SharedStyles/TitleStyles";
 import { StyledBio, InfoCard, Image, StyledReactIcon } from "./styled";
-import { Description } from "../SharedStyles/DescriptionStyles";
-import { HireMeLink } from "../SharedStyles/HireMeLink";
-import myPhoto from "../assets/myPhoto.png";
-import { ReactComponent as LaptopIcon } from "../assets/laptop.svg";
-import { ReactComponent as EnvelopeIcon } from "../assets/envelope.svg";
+import { Description } from "../../../common/SharedStyles/DescriptionStyles";
+import { HireMeLink } from "../../../common/SharedStyles/HireMeLink";
+import myPhoto from "../../../assets/myPhoto.png";
+import { ReactComponent as LaptopIcon } from "../../../assets/laptop.svg";
+import { ReactComponent as EnvelopeIcon } from "../../../assets/envelope.svg";
 
 export const Bio = () => {
   return (

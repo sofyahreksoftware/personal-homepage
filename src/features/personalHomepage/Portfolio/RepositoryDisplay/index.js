@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 
 import { StyledRepositoryDisplay } from "./styled";
-import { RepositoryCard } from "../RepositoryCard";
+import { RepositoryCard } from "./RepositoryCard";
 
 export const RepositoryDisplay = ({ repositoriesData }) => (
   <StyledRepositoryDisplay>
