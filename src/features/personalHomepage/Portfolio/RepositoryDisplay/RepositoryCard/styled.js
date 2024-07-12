@@ -20,7 +20,7 @@ export const LinkContainer = styled.div`
 
 export const Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.link.highlightedText};
+  color: ${({ theme }) => theme.colors.text.highlighted};
   border-bottom: solid 1px ${({ theme }) => theme.colors.underlinings.link};
 `;
 

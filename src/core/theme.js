@@ -27,6 +27,7 @@ export const lightTheme = {
     backgrounds: {
       main: theme.commonColors.whiteLilac,
       section: theme.commonColors.white,
+      link: theme.commonColors.scienceBlue,
     },
     text: {
       main: theme.commonColors.mineShaft,
@@ -35,10 +36,8 @@ export const lightTheme = {
     },
     bullet: theme.commonColors.scienceBlue,
     link: {
-      background: theme.commonColors.scienceBlue,
       text: theme.commonColors.white,
-      highlightedText: theme.commonColors.scienceBlue,
-      shadowFocus: theme.commonColors.atlanticBlue,
+      focused: theme.commonColors.atlanticBlue,
     },
     icons: {
       switch: {
@@ -70,6 +69,7 @@ export const darkTheme = {
     backgrounds: {
       main: theme.commonColors.mineShaft,
       section: theme.commonColors.smokyGray,
+      link: theme.commonColors.electricBlue,
     },
     text: {
       main: theme.commonColors.white,
@@ -77,10 +77,8 @@ export const darkTheme = {
       normal: theme.commonColors.white,
     },
     link: {
-      background: theme.commonColors.electricBlue,
       text: theme.commonColors.white,
-      highlightedText: theme.commonColors.electricBlue,
-      shadowFocus: theme.commonColors.oceanBlue,
+      focused: theme.commonColors.oceanBlue,
     },
     bullet: theme.commonColors.electricBlue,
     icons: {

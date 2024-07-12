@@ -10,7 +10,7 @@ export const HireMeLink = styled.a`
   justify-content: center;
   border-radius: 4px;
   white-space: nowrap;
-  background-color: ${({ theme }) => theme.colors.link.background};
+  background-color: ${({ theme }) => theme.colors.backgrounds.link};
   text-align: center;
   align-items: center;
   font-size: 20.06px;
@@ -28,8 +28,8 @@ export const HireMeLink = styled.a`
     `}
 
   &:focus {
-    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.link.shadowFocus},
-      2px 2px 0px 0px ${({ theme }) => theme.colors.link.shadowFocus};
+    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.link.focused},
+      2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused};
   }
 
   &:active {
