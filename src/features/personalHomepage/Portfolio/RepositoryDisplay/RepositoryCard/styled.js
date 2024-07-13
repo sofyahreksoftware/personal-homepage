@@ -12,6 +12,11 @@ export const StyledRepositoryCard = styled.article`
   @media (max-width: ${({ theme }) => theme.media.tablet}px) {
     padding: 24px;
   }
+
+  &:hover,
+  &:active {
+    border: 6px solid ${({ theme }) => theme.colors.borders.card};
+  }
 `;
 
 export const LinkContainer = styled.div`
@@ -21,7 +26,7 @@ export const LinkContainer = styled.div`
 export const Link = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.text.highlighted};
-  border-bottom: solid 1px ${({ theme }) => theme.colors.underlinings.link};
+  border-bottom: solid 1px ${({ theme }) => theme.colors.borders.link};
 `;
 
 export const LinkName = styled.b`

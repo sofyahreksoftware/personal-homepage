@@ -13,6 +13,8 @@ export const theme = {
     slateGray: "rgba(110, 126, 145, 1)",
     electricBlue: "rgba(33, 136, 255, 1)",
     scienceBlue: "rgba(3, 102, 214, 1)",
+    accentLightBlue: "rgba(3, 102, 214, 0.2)",
+    accentMediumBlue: "rgba(3, 102, 214, 0.5)",
     smokyGray: "rgba(54, 54, 54, 0.72)",
     smokySteel: "rgba(54, 54, 54, 0.72)",
     mineShaft: "rgba(37, 37, 37, 1)",
@@ -56,9 +58,10 @@ export const lightTheme = {
         path: theme.commonColors.scienceBlue,
       },
     },
-    underlinings: {
+    borders: {
       header: theme.commonColors.iron,
       link: theme.commonColors.scienceBlue,
+      card: theme.commonColors.accentLightBlue,
     },
   },
 };
@@ -98,9 +101,10 @@ export const darkTheme = {
         path: theme.commonColors.electricBlue,
       },
     },
-    underlinings: {
+    borders: {
       header: theme.commonColors.iron,
       link: theme.commonColors.electricBlue,
+      card: theme.commonColors.accentMediumBlue,
     },
   },
 };

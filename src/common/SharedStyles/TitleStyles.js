@@ -7,7 +7,7 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.colors.text.main};
   margin: 8px 0 0 18px;
   padding: 12px 0 13px;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.underlinings.header};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.borders.header};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 26px;
