@@ -23,6 +23,7 @@ export const LinksList = styled.ul`
 
   svg {
     fill: ${({ theme }) => theme.colors.icons.simple.normal};
+    transition: fill 1s ease;
 
     &:hover {
       fill: ${({ theme }) => theme.colors.icons.simple.highlighted};

@@ -26,6 +26,7 @@ export const Title = styled.h2`
     css`
       border-bottom: none;
       margin-left: 0;
+      transition: color 1s ease;
 
       &:hover {
         color: ${({ theme }) => theme.colors.text.highlighted};
