@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const List = styled.ul`
   list-style-type: disc;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.4;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
   grid-gap: 10px 115px;
