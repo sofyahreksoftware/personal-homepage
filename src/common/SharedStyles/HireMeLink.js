@@ -27,6 +27,7 @@ export const HireMeLink = styled.a`
       margin: 0 auto;
     `}
 
+  &:hover,
   &:focus {
     box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.link.focused},
       2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused};
