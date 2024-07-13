@@ -26,7 +26,7 @@ export const StatusText = styled.p`
 `;
 
 export const StatusIndicator = styled.em`
-  font-style: none;
+  font-style: normal;
 `;
 
 export const ToggleButton = styled.button`
