@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import reportWebVitals from "./reportWebVitals";
 
+import { useLocalStorage } from "./core/useLocalStorage";
 import { lightTheme, darkTheme } from "./core/theme";
 import App from "./App";
 import { GlobalStyle } from "./core/globalStyles";
@@ -11,7 +11,7 @@ import { GlobalStyle } from "./core/globalStyles";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const Root = () => {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isDarkMode, setDarkMode] = useLocalStorage("darkMode", false);
 
   return (
     <React.StrictMode>
