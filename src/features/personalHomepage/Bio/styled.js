@@ -12,7 +12,7 @@ export const StyledBio = styled.header`
   padding: 16px 8px;
   margin-left: 12px;
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.media.tablet}px) {
     grid-template-columns: 1fr;
     grid-gap: 6px;
     padding: 4px;
