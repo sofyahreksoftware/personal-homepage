@@ -28,7 +28,7 @@ export const Footer = () => (
       </li>
       <li>
         <a
-          href="https://github.com/sofyahreksoftware"
+          href="https://www.linkedin.com/in/sofya-grek-363294319/"
           rel="noreferrer noopener"
           target="_blank"
           title="Link to my LinkedIn"
