@@ -30,11 +30,11 @@ export const HireMeLink = styled.a`
   &:hover,
   &:focus {
     box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.link.focused},
-      2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused};
+                2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused};
   }
 
   &:active {
-    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.commonColors.forestMist};
+    box-shadow: 2px 2px 0px 0px ${({ theme }) => theme.commonColors.forestMist};
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
