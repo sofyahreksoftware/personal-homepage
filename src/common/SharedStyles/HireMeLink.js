@@ -14,7 +14,7 @@ export const HireMeLink = styled.a`
   text-align: center;
   align-items: center;
   font-size: 20.06px;
-  font-weight: 600px;
+  font-weight: 600;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.link.text};
   transition: background-color 2s ease-out;
@@ -30,11 +30,14 @@ export const HireMeLink = styled.a`
   &:hover,
   &:focus {
     box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.link.focused},
-                2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused};
+      2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused},
+      -2px 2px 0px 0px ${({ theme }) => theme.colors.link.focused},
+      2px -2px 0px 0px ${({ theme }) => theme.colors.link.focused};
   }
 
   &:active {
-    box-shadow: 2px 2px 0px 0px ${({ theme }) => theme.commonColors.forestMist};
+    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.commonColors.forestMist}
+      inset;
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
