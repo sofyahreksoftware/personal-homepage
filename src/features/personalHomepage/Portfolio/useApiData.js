@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-export const useApiData = ({apiUrl}) => {
+export const useApiData = ({ apiUrl }) => {
   const [repositoriesData, setRepositoriesData] = useState(null);
   const [fetchingStatus, setFetchingStatus] = useState("loading");
 
@@ -22,7 +22,7 @@ export const useApiData = ({apiUrl}) => {
     };
 
     getReposData();
-  }, []);
+  }, [apiUrl]);
 
   return { repositoriesData, fetchingStatus };
 };
