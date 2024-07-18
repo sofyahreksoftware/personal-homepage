@@ -70,7 +70,7 @@ export const TitleAdditionalContent = styled.b`
   display: flex;
   align-items: center;
   color: ${({ theme }) => theme.colors.text.normal};
-  font-size: 18px;
+  font-size: 12px;
   line-height: 15.6px;
   font-weight: 700px;
   margin: 0;
