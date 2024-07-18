@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-export const useApiData = () => {
+export const useApiData = ({apiUrl}) => {
   const [repositoriesData, setRepositoriesData] = useState(null);
   const [fetchingStatus, setFetchingStatus] = useState("loading");
 
@@ -12,9 +12,7 @@ export const useApiData = () => {
           setTimeout(resolve, 3000);
         });
 
-        const response = await axios.get(
-          "https://api.github.com/users/sofyahreksoftware/repos"
-        );
+        const response = await axios.get(apiUrl);
         setRepositoriesData(response.data);
         setFetchingStatus("success");
       } catch (error) {

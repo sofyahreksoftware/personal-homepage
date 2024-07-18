@@ -1,5 +1,6 @@
-import { useApiData } from "./RepositoryDisplay/useApiData";
+import { useApiData } from "./useApiData";
 
+import { apiUrl } from "./apiUrl";
 import { Entry, StyledGitHubIcon } from "./styled";
 import { StyledSection } from "../../../common/SharedStyles/SectionStyles";
 import { Title, Subtitle } from "../../../common/SharedStyles/TitleStyles";
@@ -8,7 +9,7 @@ import { RepositoryDisplay } from "./RepositoryDisplay";
 import { ApiErrorDisplay } from "./ApiErrorDisplay";
 
 export const Portfolio = () => {
-  const { repositoriesData, fetchingStatus } = useApiData();
+  const { repositoriesData, fetchingStatus } = useApiData({apiUrl: apiUrl});
 
   return (
     <StyledSection $forPortfolio>
