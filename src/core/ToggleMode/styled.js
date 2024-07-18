@@ -60,5 +60,4 @@ export const IconBackground = styled.div`
 
 export const StyledIcon = styled(Icon)`
   fill: ${({ theme }) => theme.colors.icons.simple.forSwitch};
-  stroke: ${({ theme }) => theme.colors.icons.simple.forSwitch};
 `;
