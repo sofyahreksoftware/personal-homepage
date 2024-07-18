@@ -5,7 +5,7 @@ export const HireMeLink = styled.a`
   gap: 16px;
   margin: 0;
   padding: 2px;
-  max-width: 200px;
+  max-width: 154px;
   height: 49px;
   justify-content: center;
   border-radius: 4px;
