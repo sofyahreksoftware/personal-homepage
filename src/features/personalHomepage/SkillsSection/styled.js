@@ -6,8 +6,8 @@ export const List = styled.ul`
   line-height: 1.4;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
-  grid-gap: 10px 115px;
-  align-items: center;
+  grid-gap: 8px 115px;
+  align-items: top;
 
   & > li::marker {
     color: ${({ theme }) => theme.colors.bullet};
@@ -17,5 +17,4 @@ export const List = styled.ul`
 
 export const StyledItem = styled.li`
   color: ${({ theme }) => theme.colors.text.normal};
-  margin-bottom: 8px;
 `;
