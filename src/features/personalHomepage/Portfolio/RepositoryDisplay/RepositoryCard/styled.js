@@ -7,7 +7,8 @@ export const StyledRepositoryCard = styled.article`
   border: 6px solid ${({ theme }) => theme.commonColors.mistGray};
   border-radius: 5px;
   box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.commonColors.violet},
-    0px -2px 50px 0px ${({ theme }) => theme.commonColors.violet2};
+              0px -2px 50px 0px ${({ theme }) => theme.commonColors.violet2};
+  transition: border 0.7s ease;
 
   @media (max-width: ${({ theme }) => theme.media.tablet}px) {
     padding: 24px;
