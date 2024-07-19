@@ -1,4 +1,56 @@
-# Getting Started with Create React App
+# Personal Homepage
+
+## Demo
+
+[Link to the main page of Movies Browser](https://sofyahreksoftware.github.io/personal-homepage/)
+
+## Description
+Welcome to my **personal homepage**! I'm Sofya Grek, a frontend developer with a passion for React. This website serves as a portfolio where I share my projects, contact information, and maybe in the future, insights related to web development!
+
+**My Personal Homepage currently consists of 4 sections:**
+
+1. Bio with my contact information
+2. Skillset
+3. What I want to learn next
+4. Portfolio with descriptions and links to my GitHub projects and those where I participated as a collaborator!
+
+## Technologies
+
+### HTML
+
+- HTML5: Leveraging the latest HTML standards for structure and semantics.
+- Accessibility: Implementing ARIA roles and semantic HTML to enhance accessibility.
+- Open Graph Protocol: Optimizing content for social media sharing.
+- Google Fonts: Utilizing web fonts for typography.
+
+### Styles
+- Styled Components: For component-scoped CSS with JavaScript.
+- Transitions: Implementing smooth state changes and animations.
+- Prop Rendering: Dynamic styling based on component props.
+- SVG: Scalable Vector Graphics for icons and illustrations.
+- Theme: Consistent design system across the application.
+- ThemeProvider: Context for sharing theme data across components.
+- Global Styles: Application-wide CSS rules.
+
+### JavaScript & Frameworks
+
+_Core Technologies_
+
+- **React**: Building user interfaces with reusable components.
+- **ReactDOM**: Rendering React components in the DOM.
+- **Webpack**: Compiling and bundling JavaScript modules.
+- **Babel**: Transforming ES6+ JavaScript into backwards-compatible versions.
+- **PostCSS**: Transforming CSS with JavaScript plugins.
+
+_Utilities and Hooks_
+
+- **axios** with **async/await** and **Error Handling**: For asynchronous data fetching.
+- **nanoid**: Generating unique identifiers.
+- **useEffect** Hook: Performing side effects in functional components.
+- **useState** Hook: Managing local state in functional components.
+- **Custom Hooks**: (useLocalStorage, useApiData) for reusable stateful logic.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
