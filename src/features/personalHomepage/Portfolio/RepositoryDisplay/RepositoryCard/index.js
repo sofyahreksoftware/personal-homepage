@@ -8,14 +8,12 @@ export const RepositoryCard = ({ title, description, demoLink, repoLink }) => {
       <Title as="h5">{title}</Title>
       <Description $forPortfolio>{description}</Description>
       <LinkContainer>
-        <LinkName>Demo:</LinkName>&nbsp;
+        <LinkName>Demo:</LinkName>
         <Link href={`${demoLink}`} rel="noreferrer noopener" target="_blank">
           {demoLink}
         </Link>
-      </LinkContainer>
-      <br />
-      <LinkContainer>
-        <LinkName>Code:</LinkName>&nbsp;
+        
+        <LinkName>Code:</LinkName>
         <Link href={`${repoLink}`} rel="noreferrer noopener" target="_blank">
           {repoLink}
         </Link>
