@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { ReactComponent as Icon } from "../../assets/brightness.svg";
+import { ReactComponent as Icon } from "../../../assets/brightness.svg";
 
 export const StyledToggleMode = styled.div`
   margin-top: 119px;

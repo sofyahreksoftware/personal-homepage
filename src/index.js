@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { useLocalStorage } from "./core/useLocalStorage";
 import { lightTheme, darkTheme } from "./core/theme";
-import App from "./App";
+import App from "./core/App/index";
 import { GlobalStyle } from "./core/globalStyles";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

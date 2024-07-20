@@ -1,5 +1,5 @@
-import PersonalHomepge from "./features/personalHomepage/PersonalHomepage";
-import { ToggleMode } from "./core/ToggleMode";
+import PersonalHomepge from "../../features/personalHomepage/PersonalHomepage";
+import { ToggleMode } from "./ToggleMode";
 
 function App({ isDarkMode, setDarkMode }) {
   return (
