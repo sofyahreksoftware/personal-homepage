@@ -23,8 +23,7 @@ export const LinksList = styled.ul`
   svg {
     fill: ${({ theme }) => theme.colors.icons.simple.normal};
     transition: fill 0.5s ease;
-    width: 48px;
-    height: 48px;
+    height: auto;
 
     &:hover {
       fill: ${({ theme }) => theme.colors.icons.simple.highlighted};
@@ -37,7 +36,6 @@ export const LinksList = styled.ul`
 
     svg {
       width: 32px;
-      height: 32px;
     }
   }
 `;
