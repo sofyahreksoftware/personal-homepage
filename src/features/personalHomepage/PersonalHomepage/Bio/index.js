@@ -1,4 +1,8 @@
-import { Title, TitleAdditionalContent } from "../../../../common/SharedStyles/TitleStyles";
+import { email } from "../email";
+import {
+  Title,
+  TitleAdditionalContent,
+} from "../../../../common/SharedStyles/TitleStyles";
 import { StyledBio, InfoCard, Image, StyledReactIcon } from "./styled";
 import { Description } from "../../../../common/SharedStyles/DescriptionStyles";
 import { HireMeLink } from "../../../../common/SharedStyles/HireMeLink";
@@ -21,7 +25,7 @@ export const Bio = () => {
         <HireMeLink
           rel="noreferrer noopener"
           title="My e-mail"
-          href="mailto:sofyahrek@gmail.com"
+          href={`mailto:${email}`}
         >
           <EnvelopeIcon /> Hire me
         </HireMeLink>

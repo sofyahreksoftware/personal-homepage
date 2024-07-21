@@ -1,3 +1,4 @@
+import { email } from "../email";
 import { StyledFooter, LinksList } from "./styled";
 import {
   TitleAdditionalContent,
@@ -13,7 +14,7 @@ export const Footer = () => (
   <StyledFooter>
     <TitleAdditionalContent as="h2">LET'S TALK</TitleAdditionalContent>
     <Title $forFooter as="adress">
-      sofyahrek@gmail.com
+      {email}
     </Title>
     <Description $forFooter>
       I am always eager to take on new projects when my schedule allows. If
