@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Title = styled.h2`
   font-weight: 900;
   font-size: 30px;
-  line-height: 36.31px;
+  line-height: 1.2;
   color: ${({ theme }) => theme.colors.text.main};
   margin: 8px 0 0 18px;
   padding: 12px 0 13px;
@@ -11,7 +11,6 @@ export const Title = styled.h2`
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 18px;
-    line-height: 21.78px;
   }
 
   ${({ $withoutBorder }) =>
@@ -40,12 +39,10 @@ export const Title = styled.h2`
       align-items: center;
       border-bottom: none;
       font-size: 38px;
-      line-height: 45.99px;
       margin: 0;
 
       @media (max-width: ${({ theme }) => theme.media.mobile}px) {
         font-size: 22px;
-        line-height: 26.63px;
       }
     `}
 
@@ -56,12 +53,10 @@ export const Title = styled.h2`
       font-weight: 700;
       border-bottom: none;
       font-size: 24px;
-      line-height: 29.05px;
       margin: 0;
 
       @media (max-width: ${({ theme }) => theme.media.mobile}px) {
         font-size: 16px;
-        line-height: 19.36px;
       }
     `}
 `;
@@ -71,19 +66,18 @@ export const TitleAdditionalContent = styled.b`
   align-items: center;
   color: ${({ theme }) => theme.colors.text.normal};
   font-size: 12px;
-  line-height: 15.6px;
+  line-height: 1.3;
   font-weight: 700px;
   margin: 0;
 `;
 
 export const Subtitle = styled.h3`
-  font-size: 20px;
   font-weight: 400;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 1.4;
   color: ${({ theme }) => theme.colors.text.main};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 17px;
-    line-height: 23.8px;
   }
 `;

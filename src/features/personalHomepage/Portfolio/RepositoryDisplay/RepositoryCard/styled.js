@@ -26,13 +26,13 @@ export const LinkContainer = styled.div`
   grid-template-columns: auto 1fr;
   gap: 10px 8px;
   align-items: start;
-  font-size: 18px;
   font-weight: 400;
-  line-height: 25.2px;
+  font-size: 18px;
+  line-height: 1.4;
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 14px;
-    line-height: 16.94px;
+    line-height: 1.2;
   }
 `;
 

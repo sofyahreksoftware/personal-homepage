@@ -2,9 +2,9 @@ import styled, { css } from "styled-components";
 
 export const Description = styled.p`
   font-weight: 400;
-  line-height: 25.2px;
-  color: ${({ theme }) => theme.colors.text.normal};
   font-size: 18px;
+  line-height: 1.4;
+  color: ${({ theme }) => theme.colors.text.normal};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     font-size: 14px;
@@ -15,7 +15,7 @@ export const Description = styled.p`
     $forBio &&
     css`
       font-size: 20px;
-      line-height: 28px;
+      line-height: 1.4;
 
       @media (max-width: ${({ theme }) => theme.media.mobile}px) {
         font-size: 17px;
