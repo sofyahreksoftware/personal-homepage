@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
   margin: 0 0 109px;
   max-width: 670px;
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     margin: 0 0 31px;
   }
 `;
@@ -31,7 +31,7 @@ export const LinksList = styled.ul`
     }
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     gap: 16px;
     margin: 40px 0 0 0;
 

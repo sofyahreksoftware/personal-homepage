@@ -18,7 +18,7 @@ export const HireMeLink = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.link.text};
   transition: background-color 2s ease-out;
-  border: 1px solid ${({ theme }) => theme.commonColors.cornflowerBlue};
+  border: 1px solid ${({ theme }) => theme.colorNames.cornflowerBlue};
   cursor: pointer;
 
   ${({ $centered }) =>
@@ -36,11 +36,11 @@ export const HireMeLink = styled.a`
   }
 
   &:active {
-    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.commonColors.forestMist}
+    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.colorNames.forestMist}
       inset;
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     margin: 24px 0;
   }
 `;

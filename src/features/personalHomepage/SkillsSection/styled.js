@@ -14,7 +14,7 @@ export const List = styled.ul`
     font-size: 26px;
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     font-size: 14px;
     line-height: 1.2;
     padding: 14px;

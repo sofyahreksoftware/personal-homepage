@@ -4,13 +4,13 @@ export const StyledRepositoryCard = styled.article`
   width: 100%;
   padding: 56px;
   background-color: ${({ theme }) => theme.colors.backgrounds.section};
-  border: 6px solid ${({ theme }) => theme.commonColors.mistGray};
+  border: 6px solid ${({ theme }) => theme.colorNames.mistGray};
   border-radius: 5px;
-  box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.commonColors.violet},
-    0px -2px 50px 0px ${({ theme }) => theme.commonColors.violet2};
+  box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.colorNames.violet},
+    0px -2px 50px 0px ${({ theme }) => theme.colorNames.violet2};
   transition: border 0.7s ease;
 
-  @media (max-width: ${({ theme }) => theme.media.tablet}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.tablet}px) {
     padding: 24px;
   }
 
@@ -30,7 +30,7 @@ export const LinkContainer = styled.div`
   font-size: 18px;
   line-height: 1.4;
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     font-size: 14px;
     line-height: 1.2;
   }
@@ -43,7 +43,7 @@ export const Link = styled.a`
   color: ${({ theme }) => theme.colors.text.highlighted};
   padding-top: 4px;
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     padding-top: 0;
   }
 `;

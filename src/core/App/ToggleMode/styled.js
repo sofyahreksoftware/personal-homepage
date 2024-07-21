@@ -9,7 +9,7 @@ export const StyledToggleMode = styled.div`
   align-items: center;
   justify-content: right;
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     margin: 22px 17px 0 0;
   }
 `;
@@ -20,7 +20,7 @@ export const StatusText = styled.p`
   font-size: 12px;
   line-height: 1.3;
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}PX) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}PX) {
     display: none;
   }
 `;

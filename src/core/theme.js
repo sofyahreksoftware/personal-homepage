@@ -1,6 +1,6 @@
-export const theme = {
-  media: { tablet: 948, mobile: 480 },
-  commonColors: {
+const common = {
+  mediaBreakpoints: { tablet: 948, mobile: 480 },
+  colorNames: {
     white: "rgba(255, 255, 255, 1)",
     whiteLilac: "rgba(251, 251, 254, 1)",
     iron: "rgba(229, 229, 229, 1)",
@@ -22,89 +22,95 @@ export const theme = {
     violet2: "rgba(9, 10, 51, 0.03)",
     violet: "rgba(9, 10, 51, 0.02)",
   },
+  shadow: {
+    boxShadow: `0px 16px 58px 0px  ${({ colors }) => colors.violet2},
+              0px -2px 50px 0px ${({ colors }) => colors.violet2}`,
+  },
 };
+
+
 export const lightTheme = {
-  ...theme,
+  ...common,
   colors: {
     backgrounds: {
-      main: theme.commonColors.whiteLilac,
-      section: theme.commonColors.white,
-      link: theme.commonColors.scienceBlue,
+      main: common.colorNames.whiteLilac,
+      section: common.colorNames.white,
+      link: common.colorNames.scienceBlue,
     },
     text: {
-      main: theme.commonColors.mineShaft,
-      highlighted: theme.commonColors.scienceBlue,
-      normal: theme.commonColors.slateGray,
+      main: common.colorNames.mineShaft,
+      highlighted: common.colorNames.scienceBlue,
+      normal: common.colorNames.slateGray,
     },
-    bullet: theme.commonColors.scienceBlue,
+    bullet: common.colorNames.scienceBlue,
     link: {
-      text: theme.commonColors.white,
-      focused: theme.commonColors.atlanticBlue,
+      text: common.colorNames.white,
+      focused: common.colorNames.atlanticBlue,
     },
     icons: {
       switch: {
-        internalBorder: theme.commonColors.cornflowerBlue,
-        externalBorder: theme.commonColors.slateGray,
-        mainBackground: theme.commonColors.iron,
-        background: theme.commonColors.slateGray,
+        internalBorder: common.colorNames.cornflowerBlue,
+        externalBorder: common.colorNames.slateGray,
+        mainBackground: common.colorNames.iron,
+        background: common.colorNames.slateGray,
       },
       simple: {
-        normal: theme.commonColors.mineShaft,
-        highlighted: theme.commonColors.scienceBlue,
-        forSwitch: theme.commonColors.white,
+        normal: common.colorNames.mineShaft,
+        highlighted: common.colorNames.scienceBlue,
+        forSwitch: common.colorNames.white,
       },
       loading: {
-        circle: theme.commonColors.cornflowerBlue,
-        path: theme.commonColors.scienceBlue,
+        circle: common.colorNames.cornflowerBlue,
+        path: common.colorNames.scienceBlue,
       },
     },
     borders: {
-      header: theme.commonColors.iron,
-      link: theme.commonColors.scienceBlue,
-      card: theme.commonColors.accentLightBlue,
+      header: common.colorNames.iron,
+      link: common.colorNames.scienceBlue,
+      card: common.colorNames.accentLightBlue,
     },
   },
 };
 
 export const darkTheme = {
-  ...theme,
+  ...common,
   colors: {
     backgrounds: {
-      main: theme.commonColors.mineShaft,
-      section: theme.commonColors.smokyGray,
-      link: theme.commonColors.electricBlue,
+      main: common.colorNames.mineShaft,
+      section: common.colorNames.smokyGray,
+      link: common.colorNames.electricBlue,
     },
     text: {
-      main: theme.commonColors.white,
-      highlighted: theme.commonColors.electricBlue,
-      normal: theme.commonColors.white,
+      main: common.colorNames.white,
+      highlighted: common.colorNames.electricBlue,
+      normal: common.colorNames.white,
     },
     link: {
-      text: theme.commonColors.white,
-      focused: theme.commonColors.oceanBlue,
+      text: common.colorNames.white,
+      focused: common.colorNames.oceanBlue,
     },
-    bullet: theme.commonColors.electricBlue,
+    bullet: common.colorNames.electricBlue,
     icons: {
       switch: {
-        internalBorder: theme.commonColors.smokySteel,
-        externalBorder: theme.commonColors.white,
-        mainBackground: theme.commonColors.smokySteel,
-        background: theme.commonColors.white,
+        internalBorder: common.colorNames.smokySteel,
+        externalBorder: common.colorNames.white,
+        mainBackground: common.colorNames.smokySteel,
+        background: common.colorNames.white,
       },
       simple: {
-        normal: theme.commonColors.alto,
-        highlighted: theme.commonColors.electricBlue,
-        forSwitch: theme.commonColors.mineShaft,
+        normal: common.colorNames.alto,
+        highlighted: common.colorNames.electricBlue,
+        forSwitch: common.colorNames.mineShaft,
       },
       loading: {
-        circle: theme.commonColors.smokyGray,
-        path: theme.commonColors.electricBlue,
+        circle: common.colorNames.smokyGray,
+        path: common.colorNames.electricBlue,
       },
     },
     borders: {
-      header: theme.commonColors.iron,
-      link: theme.commonColors.electricBlue,
-      card: theme.commonColors.accentMediumBlue,
+      header: common.colorNames.iron,
+      link: common.colorNames.electricBlue,
+      card: common.colorNames.accentMediumBlue,
     },
   },
 };

@@ -9,7 +9,7 @@ export const Title = styled.h2`
   padding: 12px 0 13px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.borders.header};
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     font-size: 18px;
   }
 
@@ -41,7 +41,7 @@ export const Title = styled.h2`
       font-size: 38px;
       margin: 0;
 
-      @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+      @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
         font-size: 22px;
       }
     `}
@@ -55,7 +55,7 @@ export const Title = styled.h2`
       font-size: 24px;
       margin: 0;
 
-      @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+      @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
         font-size: 16px;
       }
     `}
@@ -77,7 +77,7 @@ export const Subtitle = styled.h3`
   line-height: 1.4;
   color: ${({ theme }) => theme.colors.text.main};
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     font-size: 17px;
   }
 `;

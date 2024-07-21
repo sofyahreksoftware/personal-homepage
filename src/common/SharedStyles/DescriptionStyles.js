@@ -6,7 +6,7 @@ export const Description = styled.p`
   line-height: 1.4;
   color: ${({ theme }) => theme.colors.text.normal};
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
     font-size: 14px;
     line-height: 1.2;
   }
@@ -17,7 +17,7 @@ export const Description = styled.p`
       font-size: 20px;
       line-height: 1.4;
 
-      @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+      @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
         font-size: 17px;
         line-height: 1.4;
         margin: 0;
