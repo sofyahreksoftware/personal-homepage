@@ -35,6 +35,13 @@ export const Image = styled.img`
   display: block;
   border-radius: 50%;
 
+  @media (max-width: ${({ theme }) => theme.media.tablet}px) {
+    width: 267px;
+    height: 267px;
+    margin: -30px 13px;
+    padding: 0;
+  }
+
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     width: 178px;
     height: 178px;
