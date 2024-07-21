@@ -41,11 +41,6 @@ export const Link = styled.a`
   text-decoration-color: ${({ theme }) => theme.colors.borders.link};
   text-underline-offset: 4px;
   color: ${({ theme }) => theme.colors.text.highlighted};
-  padding-top: 4px;
-
-  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
-    padding-top: 0;
-  }
 `;
 
 export const LinkName = styled.b`
