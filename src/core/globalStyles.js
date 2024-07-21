@@ -16,8 +16,8 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.backgrounds.main};
     font-family: "Inter", sans-serif;
     font-weight: 400px;
-    letter-spacing: 1.5px;
-    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.05em;
+    word-break: break-word;  
   }
 
   button:hover {
