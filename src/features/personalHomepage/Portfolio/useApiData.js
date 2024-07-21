@@ -3,11 +3,12 @@ import { useState, useEffect } from "react";
 
 export const useApiData = ({ apiUrl }) => {
   const [repositoriesData, setRepositoriesData] = useState(null);
-  const [fetchingStatus, setFetchingStatus] = useState("loading");
+  const [fetchingStatus, setFetchingStatus] = useState("initial");
 
   useEffect(() => {
     const getReposData = async () => {
       try {
+        setFetchingStatus("loading");
         await new Promise((resolve) => {
           setTimeout(resolve, 3000);
         });
