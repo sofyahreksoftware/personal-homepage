@@ -26,6 +26,14 @@ export const LinkContainer = styled.div`
   grid-template-columns: auto 1fr;
   gap: 10px 8px;
   align-items: start;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+
+  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
 `;
 
 export const Link = styled.a`
@@ -34,12 +42,13 @@ export const Link = styled.a`
   text-underline-offset: 4px;
   color: ${({ theme }) => theme.colors.text.highlighted};
   padding-top: 4px;
+
+  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+    padding-top: 0;
+  }
 `;
 
 export const LinkName = styled.b`
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25.2px;
   align-self: top;
   color: ${({ theme }) => theme.colors.text.normal};
 `;

@@ -13,6 +13,17 @@ export const List = styled.ul`
     color: ${({ theme }) => theme.colors.bullet};
     font-size: 26px;
   }
+
+  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 14px;
+    margin-left: 18px;
+
+    & > li::marker {
+      font-size: 22px;
+    }
+  }
 `;
 
 export const StyledItem = styled.li`

@@ -23,6 +23,8 @@ export const LinksList = styled.ul`
   svg {
     fill: ${({ theme }) => theme.colors.icons.simple.normal};
     transition: fill 0.5s ease;
+    width: 48px;
+    height: 48px;
 
     &:hover {
       fill: ${({ theme }) => theme.colors.icons.simple.highlighted};
@@ -32,5 +34,10 @@ export const LinksList = styled.ul`
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     gap: 16px;
     margin: 40px 0 0 0;
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
   }
 `;

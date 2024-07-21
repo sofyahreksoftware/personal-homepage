@@ -10,7 +10,7 @@ export const Title = styled.h2`
   border-bottom: 1px solid ${({ theme }) => theme.colors.borders.header};
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
-    font-size: 26px;
+    font-size: 18px;
     line-height: 21.78px;
   }
 
@@ -44,7 +44,7 @@ export const Title = styled.h2`
       margin: 0;
 
       @media (max-width: ${({ theme }) => theme.media.mobile}px) {
-        font-size: 32px;
+        font-size: 22px;
         line-height: 26.63px;
       }
     `}
@@ -60,7 +60,7 @@ export const Title = styled.h2`
       margin: 0;
 
       @media (max-width: ${({ theme }) => theme.media.mobile}px) {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 19.36px;
       }
     `}

@@ -16,6 +16,7 @@ export const StyledBio = styled.header`
     grid-template-columns: 1fr;
     grid-gap: 6px;
     padding: 4px;
+    margin-left: 0;
   }
 `;
 
@@ -24,7 +25,7 @@ export const InfoCard = styled.div`
   grid-template-columns: 1fr;
   text-align: left;
   align-items: center;
-  padding: 58px 10px 0;
+  padding: 58px 0 0;
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     gap: 10px;
@@ -38,15 +39,13 @@ export const Image = styled.img`
   @media (max-width: ${({ theme }) => theme.media.tablet}px) {
     width: 267px;
     height: 267px;
-    margin: -30px 13px;
+    margin: -30px 0;
     padding: 0;
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}px) {
     width: 178px;
     height: 178px;
-    margin: -30px 13px;
-    padding: 0;
   }
 `;
 
