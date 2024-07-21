@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { ReactComponent as GitHubIcon } from "../../../assets/github.svg";
+import { ReactComponent as GitHubIcon } from "../../../../assets/github.svg";
 
 export const Entry = styled.div`
   text-align: center;

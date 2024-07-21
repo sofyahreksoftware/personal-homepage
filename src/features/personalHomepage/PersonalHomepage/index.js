@@ -1,7 +1,7 @@
-import { MainContainer } from "../../common/SharedStyles/StyledMain";
+import { MainContainer } from "../../../common/SharedStyles/StyledMain";
 import { Bio } from "./Bio";
 import { SkillsSection } from "./SkillsSection";
-import { currentSkillsList, futureSkillsList } from "../../common/skills";
+import { currentSkillsList, futureSkillsList } from "../../../common/skills";
 import { Footer } from "./Footer";
 import { Portfolio } from "./Portfolio";
 

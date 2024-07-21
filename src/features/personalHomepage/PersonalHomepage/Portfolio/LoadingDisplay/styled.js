@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
-import { ReactComponent as LoadingIcon } from "../../../../assets/loading.svg";
+import { ReactComponent as LoadingIcon } from "../../../../../assets/loading.svg";
 
 export const StyledLoadingIcon = styled(LoadingIcon)`
   .svg-circle {

@@ -1,6 +1,6 @@
 import { List, StyledItem } from "./styled";
-import { StyledSection } from "../../../common/SharedStyles/SectionStyles";
-import { Title } from "../../../common/SharedStyles/TitleStyles";
+import { StyledSection } from "../../../../common/SharedStyles/SectionStyles";
+import { Title } from "../../../../common/SharedStyles/TitleStyles";
 
 export const SkillsSection = ({ titleName, skills, $condensedView }) => {
   return (

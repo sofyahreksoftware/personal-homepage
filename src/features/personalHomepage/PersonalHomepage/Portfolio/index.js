@@ -2,8 +2,8 @@ import { useApiData } from "./useApiData";
 
 import { apiUrl } from "./apiUrl";
 import { Entry, StyledGitHubIcon } from "./styled";
-import { StyledSection } from "../../../common/SharedStyles/SectionStyles";
-import { Title, Subtitle } from "../../../common/SharedStyles/TitleStyles";
+import { StyledSection } from "../../../../common/SharedStyles/SectionStyles";
+import { Title, Subtitle } from "../../../../common/SharedStyles/TitleStyles";
 import { LoadingDisplay } from "./LoadingDisplay";
 import { RepositoryDisplay } from "./RepositoryDisplay";
 import { ApiErrorDisplay } from "./ApiErrorDisplay";
