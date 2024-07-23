@@ -41,7 +41,7 @@ export const ToggleButton = styled.button`
   align-items: center;
 `;
 
-export const IconBackground = styled.div`
+export const IconBackground = styled.span`
   border-radius: 50%;
   background-color: ${({ theme }) => theme.colors.icons.switch.background};
   width: 20px;
