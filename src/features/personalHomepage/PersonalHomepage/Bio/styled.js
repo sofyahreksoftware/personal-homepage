@@ -4,6 +4,7 @@ import { ReactComponent as ReactIcon } from "../../../../assets/react.svg";
 
 export const StyledBio = styled.header`
   display: grid;
+  align-items: center;
   margin-top: 72px;
   max-width: 1216px;
   grid-template-columns: auto 1fr;
@@ -32,7 +33,7 @@ export const InfoCard = styled.div`
   }
 `;
 
-export const Image = styled.img`
+export const Avatar = styled.img`
   display: block;
   border-radius: 50%;
 

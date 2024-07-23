@@ -3,7 +3,7 @@ import {
   Title,
   TitleAdditionalContent,
 } from "../../../../common/SharedStyles/TitleStyles";
-import { StyledBio, InfoCard, Image, StyledReactIcon } from "./styled";
+import { StyledBio, InfoCard, Avatar, StyledReactIcon } from "./styled";
 import { Description } from "../../../../common/SharedStyles/DescriptionStyles";
 import { HireMeLink } from "../../../../common/SharedStyles/HireMeLink";
 import myPhoto from "../../../../assets/myPhoto.jpg";
@@ -13,7 +13,7 @@ import { ReactComponent as EnvelopeIcon } from "../../../../assets/envelope.svg"
 export const Bio = () => {
   return (
     <StyledBio>
-      <Image src={myPhoto} alt="Sofya Grek" />
+      <Avatar src={myPhoto} alt="Sofya Grek" />
       <InfoCard>
         <TitleAdditionalContent>this is</TitleAdditionalContent>
         <Title as="h1">Sofya Hrek</Title>
