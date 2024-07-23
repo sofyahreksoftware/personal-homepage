@@ -69,7 +69,7 @@ export const TitleAdditionalContent = styled.b`
   color: ${({ theme }) => theme.colors.text.normal};
   font-size: 12px;
   line-height: 1.3;
-  font-weight: 700px;
+  font-weight: 700;
   margin: 0;
 `;
 
