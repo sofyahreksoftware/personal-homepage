@@ -7,7 +7,6 @@ export const List = styled.ul`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
   grid-gap: 8px 115px;
-  align-items: top;
 
   & > li::marker {
     color: ${({ theme }) => theme.colors.bullet};
