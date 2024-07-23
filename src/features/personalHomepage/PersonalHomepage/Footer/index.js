@@ -12,7 +12,7 @@ import { ReactComponent as LinkedInIcon } from "../../../../assets/linkedIn.svg"
 
 export const Footer = () => (
   <StyledFooter>
-    <TitleAdditionalContent as="h2">LET'S TALK</TitleAdditionalContent>
+    <TitleAdditionalContent as="h2">let's talk</TitleAdditionalContent>
     <Title $forFooter as="adress">
       {email}
     </Title>

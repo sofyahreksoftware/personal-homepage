@@ -64,6 +64,8 @@ export const Title = styled.h2`
 export const TitleAdditionalContent = styled.b`
   display: flex;
   align-items: center;
+  text-transform: uppercase;
+  letter-spacing: initial;
   color: ${({ theme }) => theme.colors.text.normal};
   font-size: 12px;
   line-height: 1.3;

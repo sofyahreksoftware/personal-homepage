@@ -15,7 +15,7 @@ export const Bio = () => {
     <StyledBio>
       <Image src={myPhoto} alt="me" />
       <InfoCard>
-        <TitleAdditionalContent>THIS IS</TitleAdditionalContent>
+        <TitleAdditionalContent>this is</TitleAdditionalContent>
         <Title as="h1">Sofya Hrek</Title>
         <Description $forBio>
           <StyledReactIcon />
