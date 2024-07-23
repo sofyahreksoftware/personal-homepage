@@ -20,7 +20,7 @@ export const StyledRepositoryCard = styled.article`
   }
 `;
 
-export const LinkContainer = styled.div`
+export const LinkContainer = styled.dl`
   margin: 4px 0;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -42,6 +42,6 @@ export const Link = styled.a`
   color: ${({ theme }) => theme.colors.text.highlighted};
 `;
 
-export const LinkName = styled.b`
+export const LinkName = styled.dt`
   color: ${({ theme }) => theme.colors.text.normal};
 `;
