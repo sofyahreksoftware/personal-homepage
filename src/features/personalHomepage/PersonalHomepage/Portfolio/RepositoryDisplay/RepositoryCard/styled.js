@@ -44,6 +44,5 @@ export const Link = styled.a`
 `;
 
 export const LinkName = styled.b`
-  align-self: top;
   color: ${({ theme }) => theme.colors.text.normal};
 `;

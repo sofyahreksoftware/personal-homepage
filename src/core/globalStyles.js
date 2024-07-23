@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0 14px;
     background-color: ${({ theme }) => theme.colors.backgrounds.main};
     font-family: "Inter", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     letter-spacing: 0.05em;
     word-break: break-word;  
   }
