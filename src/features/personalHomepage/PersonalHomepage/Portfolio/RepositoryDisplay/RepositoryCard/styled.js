@@ -26,7 +26,6 @@ export const LinkContainer = styled.div`
   grid-template-columns: auto 1fr;
   gap: 10px 8px;
   align-items: start;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
 
