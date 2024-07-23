@@ -23,6 +23,7 @@ export const Title = styled.h2`
   ${({ $forFooter }) =>
     $forFooter &&
     css`
+      font-style: unset;
       border-bottom: none;
       margin-left: 0;
       transition: color 1s ease;
