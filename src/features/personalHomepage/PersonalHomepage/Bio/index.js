@@ -6,14 +6,14 @@ import {
 import { StyledBio, InfoCard, Image, StyledReactIcon } from "./styled";
 import { Description } from "../../../../common/SharedStyles/DescriptionStyles";
 import { HireMeLink } from "../../../../common/SharedStyles/HireMeLink";
-import myPhoto from "../../../../assets/myPhoto.png";
+import myPhoto from "../../../../assets/myPhoto.jpg";
 import { ReactComponent as LaptopIcon } from "../../../../assets/laptop.svg";
 import { ReactComponent as EnvelopeIcon } from "../../../../assets/envelope.svg";
 
 export const Bio = () => {
   return (
     <StyledBio>
-      <Image src={myPhoto} alt="me" />
+      <Image src={myPhoto} alt="Sofya Grek" />
       <InfoCard>
         <TitleAdditionalContent>this is</TitleAdditionalContent>
         <Title as="h1">Sofya Hrek</Title>
