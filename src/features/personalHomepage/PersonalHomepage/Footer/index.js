@@ -1,3 +1,4 @@
+import { githubUsername } from "../githubUsername";
 import { email } from "../email";
 import { StyledFooter, LinksList } from "./styled";
 import {
@@ -24,7 +25,7 @@ export const Footer = () => (
     <LinksList>
       <li>
         <a
-          href="https://github.com/sofyahreksoftware"
+          href={`https://github.com/${githubUsername}`}
           rel="noreferrer noopener"
           target="_blank"
           title="Link to my GitHum page"

@@ -1,3 +1,4 @@
+import { githubUsername } from "../../githubUsername";
 import { ReactComponent as WarningIcon } from "../../../../../assets/warning.svg";
 import { HireMeLink } from "../../../../../common/SharedStyles/HireMeLink";
 import { Warning } from "./styled";
@@ -17,7 +18,7 @@ export const ApiErrorDisplay = () => (
       rel="noreferrer noopener"
       title="Link To My Github"
       target="_blank"
-      href="https://github.com/sofyahreksoftware/"
+      href={`https://github.com/${githubUsername}/`}
     >
       Go to Github
     </HireMeLink>
