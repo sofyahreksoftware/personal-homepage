@@ -76,6 +76,7 @@ export const TitleAdditionalContent = styled.b`
 
 export const Subtitle = styled.h3`
   font-size: 20px;
+  font-weight: 400;
   line-height: 1.4;
   color: ${({ theme }) => theme.colors.text.main};
 
