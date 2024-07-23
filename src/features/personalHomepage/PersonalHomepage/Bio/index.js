@@ -24,7 +24,7 @@ export const Bio = () => {
         </Description>
         <HireMeLink
           rel="noreferrer noopener"
-          title={`my e-mail: ${email}`}
+          title={`My e-mail: ${email}`}
           href={`mailto:${email}`}
         >
           <EnvelopeIcon /> Hire me
