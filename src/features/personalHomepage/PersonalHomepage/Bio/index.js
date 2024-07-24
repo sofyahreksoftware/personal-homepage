@@ -20,7 +20,7 @@ export const Bio = () => {
         <Description $forBio>
           <StyledReactIcon />
           <LaptopIcon /> I am a passionate Frontend Developer with a strong
-          passion for React, actively pursuing new career opportunities."
+          passion for React, actively pursuing new career opportunities.
         </Description>
         <HireMeLink
           rel="noreferrer noopener"
