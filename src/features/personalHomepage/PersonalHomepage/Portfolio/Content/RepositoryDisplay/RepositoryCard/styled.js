@@ -36,6 +36,10 @@ export const LinkContainer = styled.dl`
   }
 `;
 
+export const LinkWrapper = styled.dd`
+  margin: 0;
+`;
+
 export const Link = styled.a`
   text-decoration: underline;
   text-decoration-color: ${({ theme }) => a(theme.colors.borders.link, 0.3)};

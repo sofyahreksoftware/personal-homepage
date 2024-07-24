@@ -1,6 +1,6 @@
 import { Title } from "../../../../../../../common/SharedStyles/TitleStyles";
 import { Description } from "../../../../../../../common/SharedStyles/DescriptionStyles";
-import { StyledRepositoryCard, LinkContainer, Link, LinkName } from "./styled";
+import { StyledRepositoryCard, LinkContainer, LinkWrapper, Link, LinkName } from "./styled";
 
 export const RepositoryCard = ({ title, description, demoLink, repoLink }) => {
   return (
@@ -11,7 +11,7 @@ export const RepositoryCard = ({ title, description, demoLink, repoLink }) => {
         {demoLink && (
           <>
             <LinkName>Demo:</LinkName>
-            <dd>
+            <LinkWrapper>
               <Link
                 href={`${demoLink}`}
                 rel="noreferrer noopener"
@@ -20,14 +20,14 @@ export const RepositoryCard = ({ title, description, demoLink, repoLink }) => {
               >
                 {demoLink}
               </Link>
-            </dd>
+            </LinkWrapper>
           </>
         )}
 
         {repoLink && (
           <>
             <LinkName>Code:</LinkName>
-            <dd>
+            <LinkWrapper>
               <Link
                 href={`${repoLink}`}
                 rel="noreferrer noopener"
@@ -36,7 +36,7 @@ export const RepositoryCard = ({ title, description, demoLink, repoLink }) => {
               >
                 {repoLink}
               </Link>
-            </dd>
+            </LinkWrapper>
           </>
         )}
       </LinkContainer>
