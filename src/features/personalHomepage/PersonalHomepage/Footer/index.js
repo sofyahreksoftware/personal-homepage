@@ -28,7 +28,7 @@ export const Footer = () => (
           href={`https://github.com/${githubUsername}`}
           rel="noreferrer noopener"
           target="_blank"
-          title="Link to my GitHum page"
+          title="Visit my GitHub page"
         >
           <GitHubIcon />
         </a>
@@ -38,7 +38,7 @@ export const Footer = () => (
           href="https://www.linkedin.com/in/sofya-grek-363294319/"
           rel="noreferrer noopener"
           target="_blank"
-          title="Link to my LinkedIn"
+          title="Connect with me on LinkedIn"
         >
           <LinkedInIcon />
         </a>
@@ -48,7 +48,7 @@ export const Footer = () => (
           href="https://www.facebook.com/sophia.grek.739"
           rel="noreferrer noopener"
           target="_blank"
-          title="Link to my Facebook"
+          title="Follow me on Facebook"
         >
           <FacebookIcon />
         </a>
@@ -58,7 +58,7 @@ export const Footer = () => (
           href="https://www.instagram.com/_sophieta/"
           rel="noreferrer noopener"
           target="_blank"
-          title="My Instagram"
+          title="Check out my Instagram page"
         >
           <InstagramIcon />
         </a>
