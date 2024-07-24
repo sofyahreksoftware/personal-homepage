@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import a from "color-alpha";
 
 export const StyledRepositoryCard = styled.article`
   width: 100%;
@@ -37,9 +38,13 @@ export const LinkContainer = styled.dl`
 
 export const Link = styled.a`
   text-decoration: underline;
-  text-decoration-color: ${({ theme }) => theme.colors.borders.link};
+  text-decoration-color: ${({ theme }) => a(theme.colors.borders.link, 0.3)};
   text-underline-offset: 4px;
   color: ${({ theme }) => theme.colors.text.highlighted};
+
+  &:hover {
+    text-decoration-color: unset;
+  }
 `;
 
 export const LinkName = styled.dt`
