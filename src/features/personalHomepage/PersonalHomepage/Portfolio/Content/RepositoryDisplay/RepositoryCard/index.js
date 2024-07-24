@@ -1,5 +1,5 @@
-import { Title } from "../../../../../../common/SharedStyles/TitleStyles";
-import { Description } from "../../../../../../common/SharedStyles/DescriptionStyles";
+import { Title } from "../../../../../../../common/SharedStyles/TitleStyles";
+import { Description } from "../../../../../../../common/SharedStyles/DescriptionStyles";
 import { StyledRepositoryCard, LinkContainer, Link, LinkName } from "./styled";
 
 export const RepositoryCard = ({ title, description, demoLink, repoLink }) => {

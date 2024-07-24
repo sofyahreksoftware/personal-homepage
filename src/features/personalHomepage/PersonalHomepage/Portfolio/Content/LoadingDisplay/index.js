@@ -1,6 +1,6 @@
 import { LoadingAnimation } from "./styled";
-import { MessageDisplay } from "../../../../../common/SharedStyles/MessageDisplay";
-import { StatusMessage } from "../../../../../common/SharedStyles/StatusMessage";
+import { MessageDisplay } from "../../../../../../common/SharedStyles/MessageDisplay";
+import { StatusMessage } from "../../../../../../common/SharedStyles/StatusMessage";
 
 export const LoadingDisplay = () => (
   <MessageDisplay>

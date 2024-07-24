@@ -1,11 +1,11 @@
-import { githubUsername } from "../../githubUsername";
-import { ReactComponent as WarningIcon } from "../../../../../assets/warning.svg";
-import { HireMeLink } from "../../../../../common/SharedStyles/HireMeLink";
+import { githubUsername } from "../../../githubUsername";
+import { ReactComponent as WarningIcon } from "../../../../../../assets/warning.svg";
+import { HireMeLink } from "../../../../../../common/SharedStyles/HireMeLink";
 import { Warning } from "./styled";
-import { MessageDisplay } from "../../../../../common/SharedStyles/MessageDisplay";
-import { StatusMessage } from "../../../../../common/SharedStyles/StatusMessage";
+import { MessageDisplay } from "../../../../../../common/SharedStyles/MessageDisplay";
+import { StatusMessage } from "../../../../../../common/SharedStyles/StatusMessage";
 
-export const ApiErrorDisplay = () => (
+export const ErrorDisplay = () => (
   <MessageDisplay>
     <WarningIcon />
     <Warning>Ooops! Something went wrong... </Warning>
