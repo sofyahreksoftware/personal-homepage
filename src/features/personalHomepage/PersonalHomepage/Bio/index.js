@@ -19,8 +19,7 @@ export const Bio = () => {
         <Title as="h1">Sofya Hrek</Title>
         <Description $forBio>
           <StyledReactIcon />
-          <LaptopIcon /> I am a passionate Frontend Developer with a strong
-          passion for React, actively pursuing new career opportunities.
+          <LaptopIcon /> I am a passionate Frontend Developer with a strong interest in React, actively seeking new career opportunities.
         </Description>
         <HireMeLink
           rel="noreferrer noopener"
