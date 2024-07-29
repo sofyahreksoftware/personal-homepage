@@ -11,31 +11,3 @@ export const StyledFooter = styled.footer`
     margin: 0 0 31px;
   }
 `;
-
-export const LinksList = styled.ul`
-  list-style-type: none;
-  margin: 56px 0 0 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-
-  svg {
-    fill: ${({ theme }) => theme.colors.icons.simple.normal};
-    transition: fill 0.5s ease;
-    height: auto;
-
-    &:hover {
-      fill: ${({ theme }) => theme.colors.icons.simple.highlighted};
-    }
-  }
-
-  @media (max-width: ${({ theme }) => theme.mediaBreakpoints.mobile}px) {
-    gap: 16px;
-    margin: 40px 0 0 0;
-
-    svg {
-      width: 32px;
-    }
-  }
-`;

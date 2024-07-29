@@ -1,15 +1,11 @@
-import { githubUsername } from "../githubUsername";
 import { email } from "../email";
-import { StyledFooter, LinksList } from "./styled";
+import { StyledFooter, IconsList } from "./styled";
 import {
   TitleAdditionalContent,
   Title,
 } from "../../../../common/SharedStyles/TitleStyles";
 import { Description } from "../../../../common/SharedStyles/DescriptionStyles";
-import { ReactComponent as GitHubIcon } from "../../../../assets/github.svg";
-import { ReactComponent as FacebookIcon } from "../../../../assets/facebook.svg";
-import { ReactComponent as InstagramIcon } from "../../../../assets/instagram.svg";
-import { ReactComponent as LinkedInIcon } from "../../../../assets/linkedIn.svg";
+import { SocialIcons } from "./SocialIcons";
 
 export const Footer = () => (
   <StyledFooter>
@@ -17,52 +13,13 @@ export const Footer = () => (
     <Title $forFooter as="address">
       {email}
     </Title>
+
     <Description $forFooter>
       I am always eager to take on new projects when my schedule allows. If
       you're envisioning a website, dashboard, or mobile app and need assistance
       in bringing your ideas to fruition, please don't hesitate contact me!🤗
     </Description>
-    <LinksList>
-      <li>
-        <a
-          href={`https://github.com/${githubUsername}`}
-          rel="noreferrer noopener"
-          target="_blank"
-          title="Visit my GitHub page"
-        >
-          <GitHubIcon />
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/sofya-grek-363294319/"
-          rel="noreferrer noopener"
-          target="_blank"
-          title="Connect with me on LinkedIn"
-        >
-          <LinkedInIcon />
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.facebook.com/sophia.grek.739"
-          rel="noreferrer noopener"
-          target="_blank"
-          title="Follow me on Facebook"
-        >
-          <FacebookIcon />
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.instagram.com/_sophieta/"
-          rel="noreferrer noopener"
-          target="_blank"
-          title="Check out my Instagram page"
-        >
-          <InstagramIcon />
-        </a>
-      </li>
-    </LinksList>
+
+    <SocialIcons />
   </StyledFooter>
 );
