@@ -1,5 +1,5 @@
 import { email } from "../email";
-import { StyledFooter, IconsList } from "./styled";
+import { StyledFooter } from "./styled";
 import {
   TitleAdditionalContent,
   Title,
